@@ -97,7 +97,7 @@
 95,45,no,unknown, sales ,,master degree,life sciences,1117.0,2,female,65,2,intermediate, sales executive ,3,married,unknown,17970,1,unknown,13,3.0,4,1,2,3.0,15,4,12,1978,no,1050.0,15.0
 96,33,no,unknown, research & development ,,university,medical,1238.0,1,male,60,3,entry, research scientist ,4,married,unknown,6311,0,unknown,13,3.0,2,1,5,3.0,14,4,10,1990,no,117.0,15.0
 97,36,no,travel_frequently,unknown,,university,unknown,unknown,3,male,46,3,entry, research scientist ,2,married,3692.0,9256,1,no,12,3.0,3,0,2,2.0,11,0,7,1987,no,469.0,12.0
-98,45,yes,unknown,unknown,unknown,university,marketing,1277.0,1,female,94,1,expert, manager ,2,unknown,unknown,2493,2,yes,16,3.0,1,0,2,3.0,24,1,11,1978,yes,836.5059390766312,26.0
+98,45,yes,unknown,unknown,unknown,university,marketing,1277.0,1,female,94,1,expert, manager ,2,unknown,unknown,2493,2,yes,16,3.0,1,0,2,3.0,24,1,11,1978,yes,836.5059390766313,26.0
 99,51,no,travel_frequently,unknown,unknown,university,unknown,unknown,27,male,83,3,expert, manager ,2,unknown,19847.0,19196,4,yes,24,unknown,1,1,5,2.0,29,11,10,1972,no,237.0,12.4
 100,34,no,travel_rarely,unknown,,college,technical degree,1541.0,2,male,55,3,entry, sales representative ,3,unknown,2308.0,4944,0,yes,25,4.0,2,1,4,3.0,11,5,7,1989,no,1440.0,12.0
 101,43,no,travel_rarely, research & development ,,college,unknown,1666.0,3,male,65,2,advanced, research director ,3,unknown,unknown,3525,1,no,24,4.0,1,1,3,3.0,14,6,11,1980,yes,1291.0,7.2
@@ -234,7 +234,7 @@
 232,34,no,unknown, research & development ,,university,unknown,1485.0,2,male,71,3,advanced, research director ,1,unknown,unknown,11929,7,unknown,14,3.0,4,2,3,2.0,14,6,9,1989,yes,829.0,16.0
 233,35,no,travel_rarely,unknown,,university,life sciences,unknown,4,female,91,2,experienced, healthcare representative ,2,single,unknown,21195,1,no,19,3.0,4,0,3,1.0,11,3,3,1988,yes,1029.0,14.4
 234,37,no,unknown,unknown,,university,unknown,1543.0,1,male,47,3,intermediate, research scientist ,4,married,4285.0,3031,1,unknown,17,3.0,1,0,2,3.0,10,3,7,1986,yes,674.0,8.2
-235,42,no,travel_frequently,unknown,,university,unknown,1547.0,4,male,40,3,experienced, healthcare representative ,4,unknown,10124.0,18611,2,yes,14,3.0,3,1,3,1.0,20,13,9,1981,yes,831.8167906564441,24.0
+235,42,no,travel_frequently,unknown,,university,unknown,1547.0,4,male,40,3,experienced, healthcare representative ,4,unknown,10124.0,18611,2,yes,14,3.0,3,1,3,1.0,20,13,9,1981,yes,831.8167906564443,24.0
 236,45,no,unknown,unknown,,master degree,unknown,1553.0,1,male,66,3,experienced, healthcare representative ,2,divorced,unknown,20933,1,unknown,12,3.0,1,3,4,3.0,10,7,7,1978,yes,538.0,10.0
 237,30,yes,travel_rarely,unknown,,university,unknown,1562.0,2,male,64,2,intermediate, sales executive ,1,married,9714.0,5323,1,no,11,3.0,4,1,4,3.0,10,6,7,1993,yes,740.0,6.8
 238,38,no,travel_rarely,unknown,,university,life sciences,1582.0,3,male,80,3,intermediate, sales executive ,2,married,9924.0,12355,0,unknown,11,3.0,4,1,3,3.0,9,7,7,1985,yes,1245.0,10.0
@@ -347,7 +347,7 @@
 345,28,yes,unknown, research & development ,unknown,college,unknown,unknown,35,female,67,1,entry, research scientist ,2,unknown,2216.0,3872,7,yes,13,3.0,4,0,4,3.0,7,3,7,1995,yes,654.0,10.0
 346,36,no,unknown, research & development ,,university,unknown,742.0,1,female,63,4,experienced, research director ,1,married,11713.0,20335,9,unknown,14,3.0,1,1,2,3.0,8,0,5,1987,no,427.0,10.0
 347,30,no,unknown,unknown,,phd,marketing,747.0,3,male,99,3,intermediate, sales executive ,4,divorced,5304.0,25275,7,no,23,unknown,4,1,2,2.0,8,7,7,1993,yes,501.0,10.0
-348,56,no,travel_rarely,unknown,,university,unknown,762.0,3,male,81,3,advanced, healthcare representative ,4,married,11103.0,20420,7,no,11,3.0,3,0,1,2.0,10,1,1,1967,no,845.8842359170053,30.0
+348,56,no,travel_rarely,unknown,,university,unknown,762.0,3,male,81,3,advanced, healthcare representative ,4,married,11103.0,20420,7,no,11,3.0,3,0,1,2.0,10,1,1,1967,no,845.8842359170054,30.0
 349,45,no,travel_rarely,unknown,,college,unknown,783.0,2,male,46,1,intermediate, sales representative ,3,single,6632.0,12388,0,no,13,3.0,1,0,3,3.0,8,3,1,1978,yes,954.0,9.0
 350,36,no,non-travel,unknown,,master degree,unknown,789.0,1,male,76,2,experienced, sales executive ,1,single,7587.0,14229,1,unknown,15,3.0,2,0,1,3.0,10,0,9,1987,no,1434.0,10.0
 351,29,no,unknown,unknown,,university,medical,793.0,2,female,66,3,intermediate, healthcare representative ,3,married,4335.0,25549,4,no,12,3.0,1,1,3,2.0,8,1,1,1994,yes,657.0,11.0
@@ -607,7 +607,7 @@
 605,39,no,travel_rarely,unknown,,university,life sciences,unknown,4,female,42,2,intermediate, human resources ,4,unknown,5204.0,7790,8,no,11,3.0,3,2,2,3.0,5,0,4,1984,no,1383.0,13.0
 606,42,no,unknown,unknown,,college,unknown,936.0,3,female,68,2,intermediate, sales executive ,3,unknown,unknown,7824,7,unknown,17,3.0,1,0,6,3.0,5,0,3,1981,yes,462.0,9.6
 607,30,no,travel_rarely,unknown,,college,unknown,unknown,3,male,62,3,experienced, sales executive ,3,unknown,unknown,9977,5,no,11,3.0,1,1,2,4.0,8,7,7,1993,no,231.0,15.0
-608,50,no,unknown,unknown,,college,medical,997.0,4,male,66,3,advanced, research director ,4,divorced,17399.0,6615,9,no,22,unknown,3,1,1,2.0,5,1,3,1973,yes,850.5733843371924,32.0
+608,50,no,unknown,unknown,,college,medical,997.0,4,male,66,3,advanced, research director ,4,divorced,17399.0,6615,9,no,22,unknown,3,1,1,2.0,5,1,3,1973,yes,850.5733843371925,32.0
 609,59,no,travel_rarely, sales ,,college,unknown,1048.0,2,male,66,3,experienced, manager ,4,unknown,unknown,11038,3,yes,14,3.0,3,1,1,1.0,6,0,4,1964,yes,1089.0,14.0
 610,54,no,unknown,unknown,,master degree,life sciences,unknown,3,female,41,2,experienced, sales executive ,3,married,unknown,8392,6,no,11,3.0,2,1,4,3.0,9,7,0,1969,yes,1082.0,13.0
 611,56,no,unknown,unknown,,university,medical,1071.0,1,female,63,3,entry, research scientist ,3,married,unknown,12154,2,no,19,3.0,2,1,4,3.0,5,0,3,1967,no,1240.0,18.0
@@ -670,7 +670,7 @@
 668,59,no,travel_frequently,unknown,,high school,unknown,91.0,1,female,57,2,intermediate, sales executive ,3,single,5473.0,24668,7,no,11,unknown,4,0,2,2.0,4,1,3,1964,no,1225.0,20.0
 669,40,no,travel_frequently,unknown,,master degree,life sciences,119.0,3,male,78,2,advanced, healthcare representative ,2,married,13503.0,14115,1,no,22,4.0,4,1,3,2.0,22,11,11,1983,no,530.0,22.0
 670,54,no,travel_rarely,unknown,,master degree,technical degree,126.0,1,female,60,3,experienced, research director ,3,unknown,13549.0,24001,9,no,12,3.0,1,1,5,1.0,4,0,3,1969,no,1217.0,16.0
-671,50,no,unknown,unknown,unknown,university,unknown,unknown,1,female,73,3,expert, research director ,2,unknown,18172.0,9755,3,yes,19,3.0,1,0,1,2.0,8,0,7,1973,yes,841.1950874968182,28.0
+671,50,no,unknown,unknown,unknown,university,unknown,unknown,1,female,73,3,expert, research director ,2,unknown,18172.0,9755,3,yes,19,3.0,1,0,1,2.0,8,0,7,1973,yes,841.1950874968184,28.0
 672,54,no,non-travel,unknown,,university,unknown,148.0,4,female,not available,4,advanced, manager ,4,single,unknown,13871,2,unknown,12,unknown,3,0,3,3.0,5,4,4,1969,yes,142.0,7.4
 673,24,no,unknown,unknown,,high school,life sciences,150.0,2,male,52,3,entry, laboratory technician ,3,married,2774.0,13257,0,no,12,3.0,3,1,2,3.0,5,1,2,1999,yes,1127.0,8.8
 674,37,no,travel_rarely,unknown,,university,life sciences,unknown,3,male,87,3,experienced, sales executive ,4,unknown,unknown,14506,2,no,12,3.0,1,0,3,3.0,5,1,3,1986,yes,1189.0,10.2
@@ -1590,7 +1590,7 @@
 1588,28,yes,unknown, research & development ,,college,unknown,unknown,1,female,67,1,entry, research scientist ,2,unknown,2216.0,3872,7,yes,13,3.0,4,0,4,3.0,7,3,7,1995,yes,654.0,10.0
 1589,36,no,unknown, research & development ,,university,unknown,742.0,1,female,63,4,experienced, research director ,1,married,11713.0,20335,9,unknown,14,3.0,1,1,2,3.0,8,0,5,1987,no,427.0,10.0
 1590,30,no,unknown,unknown,unknown,phd,marketing,747.0,35,male,99,3,intermediate, sales executive ,4,divorced,5304.0,25275,7,no,23,unknown,4,1,2,2.0,8,7,7,1993,no,501.0,10.0
-1591,56,no,travel_rarely,unknown,,university,unknown,762.0,3,male,81,3,advanced, healthcare representative ,4,married,11103.0,20420,7,no,11,3.0,3,0,1,2.0,10,1,1,1967,yes,845.8842359170053,30.0
+1591,56,no,travel_rarely,unknown,,university,unknown,762.0,3,male,81,3,advanced, healthcare representative ,4,married,11103.0,20420,7,no,11,3.0,3,0,1,2.0,10,1,1,1967,yes,845.8842359170054,30.0
 1592,45,no,travel_rarely,unknown,,college,unknown,783.0,2,male,46,1,intermediate, sales representative ,3,single,6632.0,12388,0,no,13,3.0,1,0,3,3.0,8,3,1,1978,yes,954.0,9.0
 1593,36,no,non-travel,unknown,,master degree,unknown,789.0,1,male,76,2,experienced, sales executive ,1,single,7587.0,14229,1,unknown,15,3.0,2,0,1,3.0,10,0,9,1987,yes,1434.0,10.0
 1594,29,no,unknown,unknown,,university,medical,793.0,2,female,66,3,intermediate, healthcare representative ,3,married,4335.0,25549,4,no,12,3.0,1,1,3,2.0,8,1,1,1994,yes,657.0,11.0
