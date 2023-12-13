@@ -41,7 +41,7 @@
 39,40,No,travel_frequently,580.0,,5.0,Master Degree,,729.0,4,male,48,2,Experienced, saLes eXEcUTIVE ,1,Married,10475.0,23772,5,Yes,21,4.0,3,1,20.0,2,3.0,18,1,12,1983,No
 40,32,No,travel_rarely,859.0,,4.0,University,,830.0,3,female,98,2,Intermediate, maNufactUring DIrEcToR ,3,Married,6162.0,19124,1,No,12,3.0,3,1,14.0,3,3.0,14,6,8,1991,No
 41,41,No,travel_rarely,263.0,,,University,,,35,male,59,3,Entry, LaboRAtorY TecHNiCiAn ,1,Single,4721.0,3119,2,Yes,13,,3,0,20.0,3,3.0,18,2,17,1982,Yes
-42,53,No,,1376.0,,2.0,College,Medical,981.0,3,male,Not Available,3,Advanced, ManageR ,3,Divorced,,13938,6,No,13,3.0,3,1,22.0,3,4.0,17,15,2,1970,No
+42,53,No,,1376.0,,2.0,College,Medical,981.0,3,male,Unknown,3,Advanced, ManageR ,3,Divorced,,13938,6,No,13,3.0,3,1,22.0,3,4.0,17,15,2,1970,No
 43,36,Yes,travel_rarely,885.0,,16.0,Master Degree,,1042.0,3,female,43,4,Entry, LABorAToRY tECHnIciAN ,1,Single,,8269,1,,16,3.0,3,0,18.0,1,3.0,17,15,14,1987,Yes
 44,46,No,,1003.0,,8.0,Master Degree,Life Sciences,1080.0,4,female,74,2,Intermediate, RESEarch SCIenTisT ,1,Divorced,4615.0,21029,8,Yes,23,4.0,1,3,,2,3.0,16,1,7,1977,No
 45,38,No,travel_rarely,1321.0,,1.0,Master Degree,,1995.0,4,male,86,3,Intermediate, SalES exECUTIve ,2,Married,,7636,0,No,15,3.0,1,2,16.0,3,,15,5,8,1985,Yes
@@ -62,8 +62,8 @@
 60,36,No,,nan,,5.0,College,,304.0,4,male,62,3,Intermediate, lAboratORy TeChNiCiaN ,2,Single,5914.0,9945,8,No,16,3.0,4,0,16.0,3,4.0,13,3,7,1987,Yes
 61,37,No,,1063.0,,25.0,PhD,,529.0,2,female,72,3,Intermediate, RESEaRCh sCIENtIst ,3,Married,,23866,3,Yes,15,3.0,1,2,15.0,2,3.0,13,10,7,1986,No
 62,35,No,,1017.0,,6.0,Master Degree,,691.0,2,male,82,1,Intermediate, REsEarcH sCieNTISt ,4,,6646.0,19368,1,,13,3.0,2,0,,3,3.0,17,11,8,1988,Yes
-63,33,No,travel_frequently,1296.0,,6.0,University,Life Sciences,692.0,3,male,Not Available,3,Intermediate, heaLthCaRE ReprEseNtaTiVe ,4,Divorced,,5335,3,No,23,4.0,3,1,15.0,2,1.0,13,4,7,1990,No
-64,50,No,travel_rarely,939.0, Research & Development ,24.0,University,,1005.0,4,male,Not Available,3,Advanced, ManufactUrINg DiReCTOr ,3,Married,13973.0,4161,3,Yes,18,3.0,4,1,22.0,2,3.0,12,1,5,1973,No
+63,33,No,travel_frequently,1296.0,,6.0,University,Life Sciences,692.0,3,male,Unknown,3,Intermediate, heaLthCaRE ReprEseNtaTiVe ,4,Divorced,,5335,3,No,23,4.0,3,1,15.0,2,1.0,13,4,7,1990,No
+64,50,No,travel_rarely,939.0, Research & Development ,24.0,University,,1005.0,4,male,Unknown,3,Advanced, ManufactUrINg DiReCTOr ,3,Married,13973.0,4161,3,Yes,18,3.0,4,1,22.0,2,3.0,12,1,5,1973,No
 65,48,No,travel_rarely,1355.0,,4.0,Master Degree,,1024.0,3,male,78,2,Experienced, HEaLthcAre REPrEsEntaTIvE ,3,Single,,22245,7,,14,,2,0,27.0,3,3.0,15,4,8,1975,Yes
 66,44,No,travel_rarely,1448.0, Sales ,28.0,University,,1039.0,4,female,53,4,Advanced, SaleS eXEcUtIVE ,4,Married,13320.0,11737,3,,18,3.0,3,1,,2,3.0,12,11,11,1979,Yes
 67,44,No,travel_rarely,200.0,,29.0,Master Degree,,1225.0,4,male,32,3,Intermediate, reseaRCH ScIEntIst ,4,Single,,7744,1,,25,4.0,2,0,,3,3.0,20,13,17,1979,Yes
@@ -130,9 +130,9 @@
 133,33,No,,213.0, Research & Development ,7.0,University,Medical,817.0,3,male,49,3,Experienced, ReSeARCh DiRECtor ,3,Married,,25995,0,No,11,3.0,4,0,,3,4.0,13,3,7,1990,Yes
 134,53,No,travel_rarely,nan,,23.0,Master Degree,,901.0,4,female,72,3,Advanced, RESEARcH DirecToR ,4,,,20206,6,No,18,3.0,3,0,33.0,0,3.0,12,3,8,1970,Yes
 135,49,No,travel_rarely,527.0,,8.0,College,Other,944.0,1,female,51,3,Experienced, LAboRatORY TeCHNicIAn ,2,Married,7403.0,22477,4,,11,3.0,3,1,29.0,3,2.0,26,1,7,1974,No
-136,35,No,,882.0,,,Master Degree,,984.0,21,male,Not Available,3,Experienced, SaLeS exEcuTIVE ,4,,,6812,6,,13,3.0,2,1,,2,3.0,10,0,8,1988,No
+136,35,No,,882.0,,,Master Degree,,984.0,21,male,Unknown,3,Experienced, SaLeS exEcuTIVE ,4,,,6812,6,,13,3.0,2,1,,2,3.0,10,0,8,1988,No
 137,38,No,travel_rarely,330.0,,17.0,High school,Life Sciences,1088.0,3,female,65,2,Experienced, heAlThCARE rEpreSentaTIVE ,3,Married,8823.0,24608,0,,18,3.0,1,1,20.0,4,2.0,19,1,9,1985,No
-138,46,No,,406.0, Sales ,3.0,High school,Marketing,1124.0,1,male,Not Available,3,Advanced, MaNAgeR ,3,Married,,15596,3,No,12,3.0,4,1,,3,3.0,12,4,9,1977,No
+138,46,No,,406.0, Sales ,3.0,High school,Marketing,1124.0,1,male,Unknown,3,Advanced, MaNAgeR ,3,Married,,15596,3,No,12,3.0,4,1,,3,3.0,12,4,9,1977,No
 139,36,No,non-travel,217.0,,18.0,Master Degree,,,1,male,78,3,Intermediate, MaNuFacTUriNG dIRectOr ,4,Single,,23238,2,,20,4.0,1,0,18.0,0,3.0,11,0,9,1987,No
 140,42,Yes,travel_frequently,481.0,,,University,Life Sciences,1167.0,15,male,44,3,Advanced, salEs EXecuTIve ,1,Single,,2447,0,,12,,2,0,,2,2.0,21,13,14,1981,Yes
 141,34,No,travel_frequently,669.0,,1.0,University,,1184.0,4,male,97,2,Intermediate, HEAlTHcaRe rEpreseNTatIvE ,1,Single,,25755,0,No,20,4.0,3,0,14.0,3,3.0,13,4,9,1989,Yes
@@ -172,7 +172,7 @@
 175,27,No,travel_frequently,994.0,,8.0,University,,,4,male,37,3,Experienced, sALes exECuTiVE ,3,Single,,2975,1,No,15,3.0,4,0,9.0,0,3.0,9,1,7,1996,No
 176,30,No,travel_frequently,721.0,,1.0,College,,57.0,3,female,58,3,Intermediate, LABOrATorY TechNIcIaN ,4,,,10781,1,,23,4.0,4,0,12.0,2,,12,3,7,1993,Yes
 177,35,No,,853.0,,18.0,PhD,Life Sciences,,2,male,71,3,Experienced, sAlES eXeCuTIVe ,1,Married,,11031,1,,22,4.0,4,1,9.0,3,2.0,9,1,8,1988,Yes
-178,32,No,travel_rarely,427.0, Research & Development ,1.0,University,Medical,78.0,1,male,Not Available,3,Intermediate, ManUfaCTUriNg dIReCtor ,4,Married,6162.0,10877,1,Yes,22,4.0,2,1,9.0,3,3.0,9,7,8,1991,Yes
+178,32,No,travel_rarely,427.0, Research & Development ,1.0,University,Medical,78.0,1,male,Unknown,3,Intermediate, ManUfaCTUriNg dIReCtor ,4,Married,6162.0,10877,1,Yes,22,4.0,2,1,9.0,3,3.0,9,7,8,1991,Yes
 179,30,No,travel_rarely,852.0,,1.0,High school,Life Sciences,104.0,4,male,55,2,Intermediate, LaboraTOry TEcHniCiAN ,4,Married,5126.0,15998,1,,12,3.0,3,2,,1,,10,3,0,1993,No
 180,46,Yes,,669.0, Sales ,9.0,College,Medical,118.0,3,male,64,2,Experienced, saLES ExECuTIVe ,4,,9619.0,13596,1,No,16,3.0,4,0,9.0,3,3.0,9,4,7,1977,No
 181,30,No,travel_rarely,1334.0,,4.0,College,,121.0,3,female,63,2,Intermediate, sALeS execUTiVE ,2,,,19760,1,Yes,12,3.0,2,3,11.0,4,2.0,11,2,7,1993,No
@@ -194,7 +194,7 @@
 197,39,No,,1218.0,,1.0,High school,,531.0,2,male,52,3,Expert, ManAger ,3,,19197.0,8213,1,,14,3.0,3,1,21.0,3,3.0,21,1,6,1984,Yes
 198,60,No,,422.0,,7.0,University,Life Sciences,549.0,1,female,41,3,Expert, MaNagEr ,1,,,3854,5,No,11,3.0,4,0,33.0,5,1.0,29,11,10,1963,Yes
 199,30,No,,1398.0,,22.0,Master Degree,Other,567.0,3,female,69,3,Experienced, SaLes ExecUtiVE ,1,,8412.0,2890,0,,11,3.0,3,0,10.0,3,3.0,9,7,8,1993,Yes
-200,31,No,travel_rarely,1274.0, Research & Development ,9.0,High school,,581.0,3,male,Not Available,3,Experienced, maNUFAcTURING direCTOr ,2,Divorced,,14394,1,No,25,4.0,4,1,,6,4.0,13,0,8,1992,Yes
+200,31,No,travel_rarely,1274.0, Research & Development ,9.0,High school,,581.0,3,male,Unknown,3,Experienced, maNUFAcTURING direCTOr ,2,Divorced,,14394,1,No,25,4.0,4,1,,6,4.0,13,0,8,1992,Yes
 201,33,Yes,,1076.0,,3.0,University,Life Sciences,702.0,1,male,70,3,Entry, RESeArCh sCIentIst ,1,Single,3348.0,3164,1,Yes,11,3.0,1,0,,3,3.0,10,9,7,1990,No
 202,50,No,,1207.0,,28.0,High school,Medical,716.0,4,male,74,4,Entry, LAboRaTorY teChniCiaN ,3,Married,,3297,1,Yes,11,,3,3,20.0,3,3.0,20,3,8,1973,Yes
 203,32,No,,430.0, Research & Development ,24.0,Master Degree,Life Sciences,772.0,1,male,80,3,Intermediate, labOraTORy techNicIan ,4,,5309.0,21146,1,No,15,,4,2,10.0,2,3.0,10,4,7,1991,Yes
@@ -219,7 +219,7 @@
 222,34,No,travel_frequently,135.0,,19.0,University,Medical,,3,female,46,3,Intermediate, laboRatoRy teCHNiCiaN ,2,Divorced,4444.0,22534,4,No,13,3.0,3,2,15.0,2,4.0,11,5,10,1989,Yes
 223,28,No,non-travel,1476.0,,1.0,University,,1315.0,3,female,55,1,Intermediate, lAbORAtORy tECHNiCian ,4,Married,6674.0,16392,0,No,11,3.0,1,3,10.0,6,3.0,9,7,5,1995,Yes
 224,31,No,non-travel,587.0,,2.0,Master Degree,,1324.0,4,female,57,3,Experienced, saLEs eXEcUTIvE ,3,,9852.0,8935,1,Yes,19,3.0,1,1,10.0,5,2.0,10,9,6,1992,Yes
-225,42,No,non-travel,495.0,,2.0,High school,Life Sciences,1334.0,3,male,Not Available,3,Advanced, manageR ,3,,17861.0,26582,0,Yes,13,,4,0,21.0,3,2.0,20,2,10,1981,No
+225,42,No,non-travel,495.0,,2.0,High school,Life Sciences,1334.0,3,male,Unknown,3,Advanced, manageR ,3,,17861.0,26582,0,Yes,13,,4,0,21.0,3,2.0,20,2,10,1981,No
 226,40,No,travel_rarely,523.0,,2.0,University,Life Sciences,1346.0,3,male,98,3,Intermediate, RESearCh SCieNTIst ,4,Single,,22455,1,,13,3.0,3,0,9.0,4,3.0,9,8,8,1983,Yes
 227,34,No,,507.0,,15.0,College,Medical,1356.0,3,female,66,3,Intermediate, SALEs eXeCuTive ,1,Single,,23553,1,,12,3.0,4,0,,6,4.0,10,9,6,1989,Yes
 228,58,No,travel_rarely,1055.0,,1.0,University,,1423.0,4,female,76,3,Expert, REsearCh dIRECTOr ,1,,,22456,3,,21,4.0,3,1,,3,3.0,9,1,5,1965,No
@@ -256,7 +256,7 @@
 259,40,No,travel_rarely,444.0,,2.0,College,Marketing,1986.0,2,female,92,3,Intermediate, sAlES execUtIVE ,2,Married,5677.0,4258,3,No,14,3.0,3,1,,4,3.0,11,5,10,1983,Yes
 260,30,No,travel_rarely,911.0,,1.0,College,Medical,,4,male,76,3,Entry, LABOrAtORy TechnICiAN ,2,Married,,4077,1,No,13,3.0,3,0,12.0,6,2.0,12,1,7,1993,No
 261,47,No,,nan, Research & Development ,1.0,High school,,2000.0,3,female,98,3,Experienced, rESEARCh dIrEcTOr ,2,Married,,17231,0,No,18,3.0,1,2,14.0,3,1.0,13,5,12,1976,Yes
-262,52,No,non-travel,585.0,,29.0,Master Degree,,,1,male,Not Available,3,Entry, SAlEs rEpreSeNTAtiVe ,4,Divorced,,19788,2,,15,3.0,2,2,16.0,3,,9,0,0,1971,Yes
+262,52,No,non-travel,585.0,,29.0,Master Degree,,,1,male,Unknown,3,Entry, SAlEs rEpreSeNTAtiVe ,4,Divorced,,19788,2,,15,3.0,2,2,16.0,3,,9,0,0,1971,Yes
 263,49,No,travel_frequently,nan,,8.0,High school,,2.0,3,male,61,2,Intermediate, rEsEARCH ScIentisT ,2,Married,,24907,1,No,23,4.0,4,1,10.0,3,3.0,10,1,7,1974,Yes
 264,33,No,travel_frequently,1392.0,,,Master Degree,Life Sciences,5.0,19,female,56,3,Entry, ResEArCh ScIentiSt ,3,Married,2909.0,23159,1,,11,3.0,3,0,,3,3.0,8,3,0,1990,Yes
 265,32,No,,1005.0,,2.0,College,Life Sciences,,4,male,79,3,Entry, laBoratoRY tECHNICiAN ,4,,,11864,0,,13,3.0,3,0,8.0,2,2.0,7,3,6,1991,Yes
@@ -278,7 +278,7 @@
 281,53,No,travel_rarely,1436.0, Sales ,6.0,College,Marketing,205.0,2,male,34,3,Intermediate, sales rEprESEntAtIvE ,3,,,16047,2,Yes,20,4.0,4,1,13.0,3,1.0,7,4,5,1970,Yes
 282,29,No,non-travel,1496.0, Research & Development ,1.0,High school,Technical Degree,,4,male,41,3,Intermediate, mANuFacTurinG DirECtoR ,3,Married,4319.0,26283,1,,13,3.0,1,1,10.0,1,3.0,10,0,9,1994,No
 283,36,No,travel_frequently,1480.0, Research & Development ,3.0,College,,,4,male,30,3,Entry, lABorATOrY TeChnICIan ,2,,,15062,4,No,12,,3,0,13.0,3,2.0,8,7,2,1987,Yes
-284,33,No,travel_rarely,nan, Research & Development ,14.0,University,,252.0,4,female,Not Available,3,Entry, RESEarCh SCIEnTiST ,2,,,4673,1,,13,3.0,4,1,8.0,5,3.0,8,1,6,1990,Yes
+284,33,No,travel_rarely,nan, Research & Development ,14.0,University,,252.0,4,female,Unknown,3,Entry, RESEarCh SCIEnTiST ,2,,,4673,1,,13,3.0,4,1,8.0,5,3.0,8,1,6,1990,Yes
 285,51,No,travel_rarely,313.0,,3.0,University,,258.0,4,female,98,3,Advanced, hEalthCARE RepresenTaTivE ,2,Single,,7192,3,,18,3.0,3,0,,6,3.0,7,1,0,1972,No
 286,27,No,travel_rarely,894.0,,9.0,University,Medical,260.0,4,female,99,3,Entry, rEsEarCH SCIeNtIsT ,2,Single,,11781,1,No,16,3.0,4,0,,2,2.0,7,0,3,1996,No
 287,37,No,,290.0,,21.0,University,Life Sciences,267.0,2,male,65,4,Entry, rEsEARCH SciENtisT ,1,,3564.0,22977,1,Yes,12,3.0,1,1,,3,2.0,8,1,7,1986,Yes
@@ -312,7 +312,7 @@
 359,26,Yes,,nan,,5.0,College,Medical,,3,female,88,2,Entry, reSeArch sCIenTIst ,3,Married,2366.0,20898,1,,14,3.0,1,1,8.0,2,3.0,8,1,7,1997,Yes
 364,31,No,,616.0,,12.0,University,Medical,,4,female,41,3,Intermediate, HeAlThCArE REpreSENTaTive ,4,,,17369,0,,11,3.0,3,2,10.0,2,1.0,9,8,5,1992,No
 368,39,No,travel_rarely,903.0,,2.0,PhD,,,1,male,41,4,Experienced, saLEs exEcUTIVe ,3,Single,,2560,0,No,18,3.0,4,0,9.0,3,3.0,8,0,7,1984,No
-370,46,No,,566.0,,7.0,College,Medical,,4,male,Not Available,3,Experienced, ManuFActurIng dIrEctOr ,3,,10845.0,24208,6,,13,3.0,2,1,,3,3.0,8,0,7,1977,No
+370,46,No,,566.0,,7.0,College,Medical,,4,male,Unknown,3,Experienced, ManuFActurIng dIrEctOr ,3,,10845.0,24208,6,,13,3.0,2,1,,3,3.0,8,0,7,1977,No
 371,54,No,travel_rarely,1441.0,,17.0,University,Technical Degree,1013.0,3,female,56,3,Experienced, MaNUfaCtUrInG diRectOr ,3,,,13943,8,,11,,3,1,22.0,2,3.0,10,0,8,1969,Yes
 372,30,No,travel_rarely,153.0,,8.0,College,,1015.0,2,female,73,4,Experienced, REseARCH DIrECTOr ,1,,,17802,0,Yes,12,3.0,3,3,,4,2.0,8,1,7,1993,Yes
 373,26,No,,1066.0,,2.0,College,Medical,1018.0,4,male,32,4,Intermediate, MaNUFActURinG DIreCtoR ,4,Married,5472.0,3334,1,,12,3.0,2,0,,2,3.0,8,1,3,1997,No
@@ -327,7 +327,7 @@
 382,35,Yes,,1204.0,,4.0,University,Technical Degree,1100.0,4,male,86,3,Experienced, SAlEs EXECUTIVE ,1,,,10333,0,,22,4.0,1,0,9.0,2,3.0,8,4,7,1988,Yes
 383,33,Yes,travel_frequently,827.0, Research & Development ,,Master Degree,Medical,1101.0,36,female,54,2,Intermediate, ReseaRch scIenTisT ,3,Single,,3129,1,No,22,4.0,2,0,14.0,4,3.0,13,3,8,1990,Yes
 384,25,Yes,,1219.0, Research & Development ,4.0,High school,Technical Degree,1106.0,4,male,32,3,Entry, LaBoraTORY teCHNiCIaN ,4,Married,,4605,1,,15,,2,1,7.0,3,4.0,7,5,6,1998,Yes
-385,38,No,,770.0, Sales ,10.0,Master Degree,,1119.0,3,male,Not Available,2,Experienced, sALEs ExeCuTive ,3,,8740.0,5569,0,Yes,14,3.0,2,2,9.0,2,,8,2,7,1985,Yes
+385,38,No,,770.0, Sales ,10.0,Master Degree,,1119.0,3,male,Unknown,2,Experienced, sALEs ExeCuTive ,3,,8740.0,5569,0,Yes,14,3.0,2,2,9.0,2,,8,2,7,1985,Yes
 386,28,No,,950.0,,,University,,,12,female,93,3,Experienced, manUFactURiNG dIReCtoR ,2,,,8039,0,,17,3.0,2,3,,3,2.0,9,1,7,1995,Yes
 387,43,No,travel_frequently,1082.0,,27.0,University,Life Sciences,1126.0,3,female,83,3,Experienced, maNufactUrinG dIREctOr ,1,Married,,11535,8,No,11,3.0,3,1,18.0,1,3.0,8,0,1,1980,No
 388,39,Yes,travel_frequently,203.0, Research & Development ,2.0,University,Life Sciences,,1,male,84,3,Advanced, heALtHCARE rePResENtAtivE ,4,,,13547,7,No,11,3.0,4,3,21.0,4,3.0,18,11,5,1984,No
@@ -338,15 +338,15 @@
 393,35,No,travel_rarely,819.0,,2.0,University,,1182.0,3,male,44,2,Experienced, mAnuFAcTuRinG direCToR ,2,Divorced,,19588,2,No,18,3.0,2,1,15.0,2,4.0,7,6,4,1988,Yes
 394,53,No,,1223.0, Research & Development ,7.0,College,Medical,1201.0,4,female,50,3,Expert, ManAgEr ,3,Divorced,,18640,3,No,18,3.0,2,1,26.0,6,3.0,7,4,7,1970,No
 395,35,No,,1361.0,,17.0,Master Degree,Life Sciences,1218.0,3,male,94,3,Intermediate, SALes ExeCUTIvE ,1,,,21026,3,,15,3.0,4,3,15.0,2,3.0,7,1,7,1988,Yes
-396,33,No,,1146.0,,25.0,University,Medical,1220.0,2,female,Not Available,3,Intermediate, sAles exeCutive ,3,,,4905,1,No,12,3.0,1,1,,3,2.0,10,0,1,1990,Yes
+396,33,No,,1146.0,,25.0,University,Medical,1220.0,2,female,Unknown,3,Intermediate, sAles exeCutive ,3,,,4905,1,No,12,3.0,1,1,,3,2.0,10,0,1,1990,Yes
 397,36,No,,nan, Research & Development ,6.0,Master Degree,Life Sciences,,3,male,60,1,Entry, laboRAtORy TecHnICiAN ,3,Divorced,,6865,1,No,14,3.0,3,1,,4,3.0,7,1,7,1987,Yes
 398,30,No,travel_rarely,853.0,,7.0,Master Degree,Life Sciences,1224.0,3,male,49,3,Intermediate, lAbORATorY tECHnICIaN ,3,Divorced,3491.0,11309,1,,13,,1,3,,4,2.0,10,8,9,1993,Yes
 399,60,No,,nan,,,Master Degree,,,29,male,52,4,Intermediate, SalEs ExeCutIVe ,4,Divorced,5220.0,10893,0,,18,3.0,2,1,12.0,3,3.0,11,1,9,1963,Yes
 400,32,No,,1316.0,,2.0,College,Life Sciences,1235.0,4,female,38,3,Intermediate, resEArch scIENTisT ,3,Single,,2338,4,Yes,14,3.0,4,0,10.0,2,3.0,8,0,7,1991,No
-401,36,No,,363.0,,1.0,University,Technical Degree,1237.0,3,female,Not Available,1,Experienced, mANUFaCTuRing DirECtOR ,1,Divorced,10252.0,4235,2,Yes,21,4.0,3,1,17.0,2,3.0,7,7,7,1987,Yes
+401,36,No,,363.0,,1.0,University,Technical Degree,1237.0,3,female,Unknown,1,Experienced, mANUFaCTuRing DirECtOR ,1,Divorced,10252.0,4235,2,Yes,21,4.0,3,1,17.0,2,3.0,7,7,7,1987,Yes
 402,27,No,travel_rarely,1103.0,,14.0,University,,,1,male,42,3,Entry, rEseARcH sciENTIST ,1,,,14377,1,,14,3.0,4,2,,3,2.0,9,6,8,1996,Yes
 403,43,No,,920.0, Research & Development ,3.0,University,Life Sciences,1255.0,3,male,96,1,Expert, ReSeARCH diRECtoR ,4,,19740.0,18625,3,No,14,3.0,2,1,,2,3.0,8,0,7,1980,Yes
-404,29,No,travel_rarely,694.0,,1.0,University,,1264.0,4,female,Not Available,2,Advanced, ReSeArCh dirECTOR ,4,Divorced,,3423,3,No,14,3.0,2,2,9.0,2,2.0,7,1,7,1994,Yes
+404,29,No,travel_rarely,694.0,,1.0,University,,1264.0,4,female,Unknown,2,Advanced, ReSeArCh dirECTOR ,4,Divorced,,3423,3,No,14,3.0,2,2,9.0,2,2.0,7,1,7,1994,Yes
 405,59,No,,1429.0,,,Master Degree,,1283.0,24,male,67,3,Experienced, MANufactUring Director ,4,Single,,20002,6,No,12,3.0,4,0,,6,2.0,9,5,4,1964,No
 406,43,No,travel_rarely,531.0,,4.0,Master Degree,Marketing,1293.0,4,female,56,2,Experienced, salES ExECUTIVE ,4,Single,,20364,3,No,14,3.0,4,0,23.0,3,4.0,21,15,17,1980,Yes
 407,44,Yes,travel_rarely,621.0,,15.0,University,Medical,1295.0,1,female,73,3,Experienced, hEALtHcARE rePrESeNtATIve ,4,Married,,14075,1,,11,3.0,4,1,,2,3.0,10,0,5,1979,Yes
@@ -383,7 +383,7 @@
 438,45,No,non-travel,nan,,26.0,University,Marketing,1612.0,1,male,52,2,Intermediate, saLES ExeCutive ,1,,4385.0,24162,1,,15,,1,1,10.0,2,,10,4,5,1978,No
 439,34,No,travel_frequently,426.0,,10.0,Master Degree,,1615.0,3,male,42,4,Intermediate, ManuFacTuRiNg DIrEcTOr ,4,,,17000,1,,13,3.0,1,1,9.0,3,,9,7,2,1989,Yes
 440,39,No,,1387.0, Research & Development ,10.0,PhD,Medical,,2,male,76,3,Intermediate, maNuFAcTURInG DIReCtoR ,1,,,3835,2,,13,3.0,4,3,,3,3.0,7,7,7,1984,No
-441,27,No,,1302.0, Research & Development ,,University,,1619.0,36,male,Not Available,2,Entry, LABORaTorY TEChNIcIAN ,1,Divorced,4066.0,16290,1,No,11,3.0,1,2,7.0,3,3.0,7,0,7,1996,Yes
+441,27,No,,1302.0, Research & Development ,,University,,1619.0,36,male,Unknown,2,Entry, LABORaTorY TEChNIcIAN ,1,Divorced,4066.0,16290,1,No,11,3.0,1,2,7.0,3,3.0,7,0,7,1996,Yes
 442,45,No,travel_rarely,1329.0,,2.0,College,,1635.0,4,female,59,2,Intermediate, mANufacTuRiNG diReCTOr ,4,Divorced,,5388,1,,19,3.0,1,2,10.0,3,3.0,10,3,9,1978,Yes
 443,44,No,,602.0,,1.0,PhD,,1642.0,1,male,37,3,Intermediate, HUmAn resOuRceS ,4,Married,,10503,4,Yes,11,3.0,3,0,14.0,3,3.0,10,0,2,1979,Yes
 444,25,No,,772.0,,2.0,High school,Life Sciences,1653.0,4,male,77,4,Intermediate, MaNuFACtuRInG dirECTOR ,3,Divorced,5206.0,4973,1,,17,3.0,3,2,7.0,6,3.0,7,0,7,1998,No
@@ -407,7 +407,7 @@
 472,26,No,,157.0, Research & Development ,1.0,University,Medical,1952.0,3,male,95,3,Entry, lAboRaTory tECHNIciAN ,1,Single,,20006,0,No,13,3.0,4,0,8.0,6,,7,7,6,1997,Yes
 473,27,No,travel_rarely,954.0,,9.0,University,,1965.0,4,male,44,3,Intermediate, Sales eXeCUtIVE ,4,,,5099,1,,14,3.0,1,0,,5,,7,0,7,1996,No
 474,31,Yes,travel_frequently,754.0, Sales ,26.0,Master Degree,Marketing,1967.0,1,male,63,3,Intermediate, saLes eXECUTIVe ,4,,,21075,1,Yes,11,3.0,3,0,10.0,4,3.0,10,0,8,1992,Yes
-475,33,No,travel_frequently,1303.0,,7.0,College,Life Sciences,,4,male,Not Available,3,Intermediate, hEALTHcaRe rePrESentATIve ,3,Divorced,,18079,1,,20,,3,3,9.0,2,3.0,9,2,8,1990,Yes
+475,33,No,travel_frequently,1303.0,,7.0,College,Life Sciences,,4,male,Unknown,3,Intermediate, hEALTHcaRe rePrESentATIve ,3,Divorced,,18079,1,,20,,3,3,9.0,2,3.0,9,2,8,1990,Yes
 476,31,No,,697.0,,10.0,University,,1979.0,3,female,40,3,Experienced, resEarch diReCtor ,3,Married,,26862,4,No,20,4.0,3,1,13.0,2,4.0,11,4,8,1992,Yes
 477,35,No,,1395.0,,9.0,Master Degree,Medical,2008.0,2,male,48,3,Intermediate, REseaRCH SCIENTIsT ,3,,5098.0,18698,1,No,19,3.0,2,0,10.0,5,3.0,10,0,8,1988,Yes
 478,33,No,travel_rarely,501.0,,15.0,College,,2009.0,2,female,95,3,Intermediate, hEalthcarE ReprESeNTatiVe ,4,Married,,21653,0,Yes,13,,1,1,,6,3.0,9,8,1,1990,Yes
@@ -462,7 +462,7 @@
 527,29,No,travel_rarely,665.0,,15.0,University,,346.0,3,male,60,3,Entry, reSearch sCienTiSt ,4,,,22673,1,No,19,3.0,1,0,6.0,1,3.0,6,1,5,1994,No
 528,26,No,,1479.0,,1.0,University,,384.0,3,female,84,3,Intermediate, manUFaCTUriNg DIrectOR ,2,,6397.0,26767,1,No,20,4.0,1,1,6.0,6,1.0,6,1,4,1997,No
 529,28,No,,304.0,,9.0,Master Degree,Life Sciences,498.0,2,male,92,3,Intermediate, saLes exEcutiVE ,4,Single,,20750,1,No,16,3.0,4,0,,1,3.0,7,0,7,1995,Yes
-530,42,No,travel_frequently,1368.0,,,Master Degree,Technical Degree,551.0,4,female,Not Available,2,Intermediate, HeALthcare RePREsENTativE ,4,Married,,4386,0,No,11,3.0,4,3,7.0,4,4.0,6,0,4,1981,Yes
+530,42,No,travel_frequently,1368.0,,,Master Degree,Technical Degree,551.0,4,female,Unknown,2,Intermediate, HeALthcare RePREsENTativE ,4,Married,,4386,0,No,11,3.0,4,3,7.0,4,4.0,6,0,4,1981,Yes
 531,31,No,travel_rarely,828.0, Sales ,2.0,High school,Life Sciences,604.0,2,male,77,3,Intermediate, Sales exECutIVE ,4,,,8346,4,Yes,13,3.0,3,0,10.0,2,4.0,6,0,5,1992,Yes
 532,37,No,travel_rarely,799.0,,,University,,,47,female,59,3,Experienced, MAnUfaCTUrINg dIrEctor ,4,Single,,23848,4,,17,3.0,4,0,,3,4.0,6,1,2,1986,Yes
 533,37,No,non-travel,142.0,,9.0,Master Degree,,626.0,1,male,69,3,Experienced, sALES ExEcUTiVE ,2,Divorced,,24666,1,No,13,3.0,4,1,9.0,6,3.0,9,7,7,1986,No
@@ -486,7 +486,7 @@
 551,26,No,,583.0, Research & Development ,4.0,College,Life Sciences,,3,male,53,3,Entry, ResEArch ScieNTiST ,4,,,9973,1,Yes,20,4.0,2,0,,2,2.0,8,2,2,1997,No
 552,47,No,travel_rarely,465.0,,1.0,University,,1438.0,1,male,74,3,Entry, reSEarCh ScIeNTIST ,4,,3420.0,10205,7,No,12,3.0,3,1,17.0,2,2.0,6,1,2,1976,Yes
 553,37,No,,1413.0, Research & Development ,5.0,College,,,3,male,84,4,Entry, labORaTORy TecHniciAN ,3,Single,,25470,0,No,14,3.0,1,0,7.0,2,1.0,6,1,3,1986,No
-554,32,No,,1200.0,,1.0,Master Degree,,1574.0,4,male,Not Available,3,Intermediate, ResEaRch ScieNTiSt ,1,Married,4087.0,25174,4,,14,3.0,2,1,9.0,3,2.0,6,1,2,1991,Yes
+554,32,No,,1200.0,,1.0,Master Degree,,1574.0,4,male,Unknown,3,Intermediate, ResEaRch ScieNTiSt ,1,Married,4087.0,25174,4,,14,3.0,2,1,9.0,3,2.0,6,1,2,1991,Yes
 555,32,No,,977.0,,2.0,University,Medical,1671.0,4,male,45,3,Intermediate, ReseARch SciENTISt ,2,Divorced,,25518,0,No,13,3.0,3,2,10.0,4,2.0,9,1,6,1991,Yes
 556,33,No,non-travel,530.0,,16.0,University,Life Sciences,,3,female,36,3,Intermediate, saLes eXeCutIvE ,4,,5368.0,16130,1,Yes,25,4.0,3,1,7.0,2,3.0,6,1,2,1990,No
 557,47,Yes,,1093.0, Sales ,9.0,University,,,3,male,82,1,Advanced, SalEs exECUTIvE ,3,Married,12936.0,24164,7,No,11,,3,0,25.0,3,1.0,23,14,10,1976,Yes
@@ -495,7 +495,7 @@
 560,29,No,travel_rarely,1328.0,,2.0,University,Life Sciences,94.0,3,male,76,3,Entry, REseaRCh SCiENTIst ,2,Married,,4956,0,No,23,4.0,4,1,,3,3.0,5,0,4,1994,No
 561,32,No,travel_rarely,548.0,,1.0,University,Life Sciences,,2,male,66,3,Intermediate, reseARCH sCIEntiST ,2,,,7346,1,No,17,3.0,2,2,10.0,3,3.0,10,0,9,1991,Yes
 562,35,No,travel_rarely,1214.0,,1.0,University,Medical,,2,male,30,2,Entry, RESeaRCh sCientIsT ,3,Single,,26278,1,No,18,3.0,1,0,6.0,3,3.0,6,0,4,1988,No
-563,56,No,,nan,,,University,,112.0,4,male,Not Available,1,Experienced, mAnUfactURing dIReCtOr ,4,,,21698,4,No,11,3.0,1,0,37.0,3,2.0,6,0,2,1967,Yes
+563,56,No,,nan,,,University,,112.0,4,male,Unknown,1,Experienced, mAnUfactURing dIReCtOr ,4,,,21698,4,No,11,3.0,1,0,37.0,3,2.0,6,0,2,1967,Yes
 564,28,No,,120.0,,4.0,University,Medical,129.0,2,male,43,3,Intermediate, sales ExEcUtiVe ,3,,4221.0,8863,1,,15,3.0,2,0,5.0,3,4.0,5,0,4,1995,Yes
 565,25,Yes,travel_rarely,240.0,,5.0,University,,142.0,3,male,46,2,Intermediate, sALES eXeCutiVE ,3,Single,,26959,1,Yes,11,3.0,4,0,,1,3.0,6,0,3,1998,Yes
 566,56,Yes,,441.0,,14.0,Master Degree,Life Sciences,161.0,2,female,72,3,Entry, reseARcH scieNtISt ,2,,4963.0,4510,9,,18,3.0,1,3,7.0,2,3.0,5,4,3,1967,Yes
@@ -510,12 +510,12 @@
 575,31,No,non-travel,nan, Research & Development ,1.0,Master Degree,Medical,308.0,3,male,90,1,Intermediate, maNuFAcTUring DIrecToR ,3,,,4381,0,,12,3.0,4,1,6.0,2,3.0,5,1,4,1992,Yes
 576,33,Yes,,813.0,,14.0,University,,325.0,3,male,58,3,Entry, LaBoRatorY teCHNiciaN ,4,Married,,22149,5,Yes,13,3.0,3,1,8.0,2,1.0,5,0,4,1990,No
 577,31,Yes,,307.0,,29.0,College,,355.0,3,male,71,2,Entry, laboraTORy teChnICiaN ,2,,,11652,0,No,11,3.0,2,0,,2,4.0,5,1,4,1992,Yes
-578,37,No,,228.0,,6.0,Master Degree,,378.0,3,male,Not Available,3,Intermediate, sALes EXECUTiVE ,4,,6502.0,22825,4,No,14,3.0,2,1,,5,4.0,5,0,1,1986,Yes
+578,37,No,,228.0,,6.0,Master Degree,,378.0,3,male,Unknown,3,Intermediate, sALes EXECUTiVE ,4,,6502.0,22825,4,No,14,3.0,2,1,,5,4.0,5,0,1,1986,Yes
 579,50,No,,797.0, Research & Development ,4.0,High school,,,1,male,96,3,Expert, ResEARCh DIRECtoR ,2,Divorced,,15815,3,No,14,3.0,1,2,28.0,4,2.0,10,1,6,1973,No
 580,42,No,travel_frequently,555.0,,26.0,University,,,3,female,77,3,Advanced, SAlEs ExecuTIVE ,2,Married,13525.0,14864,5,,14,3.0,4,1,,2,,20,4,8,1981,Yes
 581,27,No,,1377.0,,2.0,University,,,4,male,74,3,Intermediate, saleS eXEcuTiVe ,3,,,5242,1,Yes,11,3.0,1,0,5.0,3,3.0,5,0,4,1996,Yes
 582,27,No,non-travel,210.0,,1.0,High school,Marketing,449.0,3,male,73,3,Intermediate, sales exEcutIVe ,2,,6349.0,22107,0,Yes,13,3.0,4,1,,0,,5,1,4,1996,Yes
-583,41,No,travel_rarely,483.0,,6.0,University,,466.0,4,male,Not Available,2,Intermediate, MAnUFacTuRING DIREctOR ,2,Single,,10110,6,Yes,15,3.0,4,0,,3,3.0,5,1,2,1982,Yes
+583,41,No,travel_rarely,483.0,,6.0,University,,466.0,4,male,Unknown,2,Intermediate, MAnUFacTuRING DIREctOR ,2,Single,,10110,6,Yes,15,3.0,4,0,,3,3.0,5,1,2,1982,Yes
 584,37,No,travel_rarely,921.0,,10.0,University,Medical,486.0,3,female,98,3,Entry, lAboRaTOrY tEcHNiciaN ,1,,,17663,6,No,20,4.0,2,1,,3,3.0,5,0,3,1986,Yes
 585,40,Yes,,575.0,,,College,,492.0,22,male,68,2,Intermediate, sAles EXECUtIvE ,3,,6380.0,6110,2,Yes,12,3.0,1,2,8.0,6,3.0,6,1,0,1983,Yes
 586,55,No,,1311.0,,2.0,University,,505.0,3,female,97,3,Advanced, manaGER ,4,Single,,23258,2,Yes,13,3.0,3,0,,2,3.0,5,1,2,1968,No
@@ -523,7 +523,7 @@
 588,40,No,travel_rarely,759.0,,2.0,College,Marketing,,4,female,46,3,Intermediate, saLes eXeCuTIvE ,2,Divorced,,22553,7,,12,3.0,3,2,,5,3.0,5,1,3,1983,Yes
 589,25,No,,891.0, Sales ,4.0,College,,527.0,2,female,99,2,Intermediate, SaLes exECutIVe ,4,Single,,12090,1,Yes,11,3.0,2,0,5.0,3,3.0,5,1,3,1998,No
 590,30,No,,1082.0,,12.0,University,,,2,female,83,3,Intermediate, SalEs EXECuTIVe ,3,Single,,19558,0,No,11,,2,0,,6,3.0,5,4,4,1993,Yes
-591,52,No,travel_rarely,319.0,,,University,,,4,male,Not Available,2,Experienced, mAnuFActUriNG DIRECTOR ,3,Married,,19609,2,,14,,3,0,,4,3.0,5,0,4,1971,No
+591,52,No,travel_rarely,319.0,,,University,,,4,male,Unknown,2,Experienced, mAnuFActUriNG DIRECTOR ,3,Married,,19609,2,,14,,3,0,,4,3.0,5,0,4,1971,No
 592,42,No,travel_frequently,532.0,,,College,,547.0,1,female,92,3,Intermediate, reSEaRch sCIeNtisT ,3,,4556.0,12932,2,No,11,3.0,2,1,19.0,3,3.0,5,0,2,1981,No
 593,30,No,travel_rarely,317.0,,2.0,University,Life Sciences,548.0,3,female,43,1,Intermediate, maNUfaCTURING DIrECToR ,4,,,24793,2,No,20,4.0,3,0,11.0,2,3.0,5,0,2,1993,Yes
 594,35,No,travel_rarely,144.0,,22.0,University,Life Sciences,577.0,4,male,46,1,Entry, lABOrAToRy tEchNicIAN ,3,Single,4230.0,19225,0,No,15,3.0,3,0,,2,3.0,5,4,3,1988,No
@@ -532,7 +532,7 @@
 597,25,No,,622.0,,13.0,High school,,,2,male,40,3,Entry, SaLEs REpResENTATive ,3,,,26376,1,,11,3.0,3,0,7.0,1,3.0,7,0,6,1998,Yes
 598,32,No,travel_rarely,646.0,,9.0,Master Degree,,679.0,1,female,92,3,Intermediate, rEsEaRch scIenTist ,4,Married,6322.0,18089,1,,12,3.0,4,1,6.0,2,,6,0,5,1991,No
 599,47,Yes,,719.0,,27.0,College,Life Sciences,785.0,2,female,77,4,Intermediate, sALeS eXECuTiVe ,3,,,10339,4,Yes,12,3.0,4,0,8.0,2,3.0,5,1,3,1976,No
-600,30,No,travel_frequently,1012.0,,5.0,Master Degree,Life Sciences,861.0,2,male,Not Available,2,Entry, ResEARcH ScIeNtISt ,4,Divorced,,2373,9,No,12,3.0,2,1,10.0,3,2.0,5,0,3,1993,Yes
+600,30,No,travel_frequently,1012.0,,5.0,Master Degree,Life Sciences,861.0,2,male,Unknown,2,Entry, ResEARcH ScIeNtISt ,4,Divorced,,2373,9,No,12,3.0,2,1,10.0,3,2.0,5,0,3,1993,Yes
 601,45,No,,930.0,,9.0,University,Marketing,864.0,4,male,74,3,Experienced, SaLEs EXECuTIve ,1,Divorced,10761.0,19239,4,Yes,12,3.0,3,1,18.0,2,3.0,5,0,2,1978,No
 602,36,No,travel_rarely,1278.0,,8.0,University,Life Sciences,878.0,1,male,77,2,Entry, HuMan reSOurces ,1,,,8635,0,,21,4.0,3,0,,3,3.0,5,0,3,1987,Yes
 603,31,No,,1222.0,,11.0,Master Degree,,895.0,4,male,48,3,Entry, research sCiENtIst ,4,,,14871,3,,19,3.0,2,1,,2,3.0,6,0,2,1992,Yes
@@ -563,12 +563,12 @@
 628,39,No,non-travel,1485.0, Research & Development ,25.0,College,,1397.0,3,male,71,3,Experienced, HEaLTHcaRE rePReseNtaTIvE ,3,,,3449,3,No,21,4.0,2,1,13.0,2,3.0,6,0,5,1984,No
 629,52,No,travel_rarely,258.0,,8.0,Master Degree,Other,1409.0,3,female,54,3,Entry, lAboratorY TECHNIcian ,1,Married,,17363,9,No,13,,3,0,12.0,2,1.0,5,0,4,1971,Yes
 630,36,No,,1174.0,,3.0,Master Degree,,1425.0,1,female,99,3,Intermediate, SaLeS ExEcUtiVe ,2,Single,9278.0,20763,3,Yes,16,3.0,4,0,15.0,3,3.0,5,0,1,1987,Yes
-631,36,No,,172.0,,,Master Degree,Life Sciences,1435.0,47,male,Not Available,2,Intermediate, LabORAtORY TechNiciAN ,4,Single,,22604,1,,16,3.0,3,0,10.0,2,2.0,10,1,8,1987,Yes
+631,36,No,,172.0,,,Master Degree,Life Sciences,1435.0,47,male,Unknown,2,Intermediate, LabORAtORY TechNiciAN ,4,Single,,22604,1,,16,3.0,3,0,10.0,2,2.0,10,1,8,1987,Yes
 632,24,No,travel_rarely,nan,,4.0,High school,,1445.0,4,female,42,3,Intermediate, SALes exeCUtiVE ,3,Married,4162.0,15211,1,Yes,12,3.0,3,2,,3,3.0,5,0,3,1999,Yes
 633,34,No,travel_rarely,401.0,,1.0,University,Life Sciences,,4,female,86,2,Entry, lAborAtoRy technIcIAN ,2,,,3708,5,No,17,3.0,1,1,7.0,2,2.0,5,0,2,1989,No
-634,28,No,,866.0, Sales ,5.0,University,,1469.0,4,male,Not Available,3,Intermediate, sAles eXEcUtIve ,1,Single,,23490,0,,18,3.0,4,0,,4,3.0,5,1,3,1995,Yes
+634,28,No,,866.0, Sales ,5.0,University,,1469.0,4,male,Unknown,3,Intermediate, sAles eXEcUtIve ,1,Single,,23490,0,,18,3.0,4,0,,4,3.0,5,1,3,1995,Yes
 635,33,No,travel_rarely,1099.0, Research & Development ,4.0,Master Degree,Medical,,1,female,82,2,Entry, laBoraTorY tEChnICiaN ,2,,,8192,8,No,11,3.0,4,0,8.0,5,3.0,5,0,2,1990,Yes
-636,47,No,travel_rarely,571.0,,14.0,University,Medical,1503.0,3,female,Not Available,3,Intermediate, SALes exEcUTivE ,3,Married,,24200,3,,17,3.0,3,1,,4,2.0,5,1,2,1976,Yes
+636,47,No,travel_rarely,571.0,,14.0,University,Medical,1503.0,3,female,Unknown,3,Intermediate, SALes exEcUTivE ,3,Married,,24200,3,,17,3.0,3,1,,4,2.0,5,1,2,1976,Yes
 637,40,Yes,,676.0,,9.0,Master Degree,Life Sciences,1534.0,4,male,86,3,Entry, lAbORatorY TeChnIciAn ,1,Single,,21831,3,,14,3.0,2,0,15.0,3,1.0,5,1,0,1983,No
 638,45,No,travel_rarely,950.0,,,University,Technical Degree,1546.0,49,male,97,3,Entry, rEsEaRcH sCiENTIST ,4,Married,,4585,4,No,20,4.0,4,1,,3,3.0,5,0,3,1978,Yes
 639,40,No,travel_rarely,1342.0,,9.0,College,,1548.0,1,male,47,3,Intermediate, sAleS exEcuTive ,1,,,19345,0,,12,3.0,4,0,,5,4.0,8,7,1,1983,Yes
@@ -586,7 +586,7 @@
 651,38,No,travel_rarely,1153.0, Research & Development ,6.0,College,Other,1782.0,4,female,40,2,Entry, lAbOrAtorY techNiCiaN ,3,Married,3702.0,16376,1,No,11,3.0,2,1,5.0,3,3.0,5,0,4,1985,Yes
 652,35,No,,185.0,,23.0,Master Degree,Medical,1826.0,2,male,91,1,Entry, lABoRAtory technICiaN ,3,Married,2705.0,9696,0,,16,,2,1,6.0,2,4.0,5,0,3,1988,Yes
 653,40,No,,750.0,,12.0,University,,,2,female,47,3,Intermediate, HeAltHCARE rEpReSeNtative ,1,,4448.0,10748,2,,12,3.0,2,1,15.0,3,3.0,7,7,7,1983,Yes
-654,27,No,travel_frequently,1297.0, Research & Development ,,College,,1850.0,48,female,Not Available,3,Entry, laboRaTOrY TEchniCIaN ,4,Single,2379.0,19826,0,Yes,14,3.0,3,0,6.0,3,2.0,5,0,2,1996,Yes
+654,27,No,travel_frequently,1297.0, Research & Development ,,College,,1850.0,48,female,Unknown,3,Entry, laboRaTOrY TEchniCIaN ,4,Single,2379.0,19826,0,Yes,14,3.0,3,0,6.0,3,2.0,5,0,2,1996,Yes
 655,41,No,,337.0,,8.0,University,,1909.0,3,female,54,3,Intermediate, SALes eXECUtiVE ,2,,,26841,5,No,21,4.0,3,1,14.0,3,3.0,5,1,4,1982,Yes
 656,33,No,travel_rarely,217.0,,,Master Degree,Marketing,1924.0,2,male,43,3,Intermediate, SaLeS ExecuTIVE ,3,Single,5487.0,10410,1,No,14,3.0,2,0,,2,2.0,10,0,9,1990,No
 657,49,No,,1064.0,,2.0,High school,Life Sciences,1941.0,2,male,42,3,Expert, ReSeARCh DiRecTOR ,4,Married,,13738,3,No,15,3.0,4,0,28.0,3,3.0,5,4,3,1974,No
@@ -604,13 +604,13 @@
 669,40,No,travel_frequently,530.0,,1.0,Master Degree,Life Sciences,119.0,3,male,78,2,Advanced, heaLThCaRE RepreSEntaTiVe ,2,Married,13503.0,14115,1,No,22,4.0,4,1,22.0,3,2.0,22,11,11,1983,No
 670,54,No,travel_rarely,1217.0,,2.0,Master Degree,Technical Degree,126.0,1,female,60,3,Experienced, REsEarcH DIRECtor ,3,,13549.0,24001,9,No,12,3.0,1,1,16.0,5,1.0,4,0,3,1969,No
 671,50,No,,nan,,,University,,,1,female,73,3,Expert, reseaRCH DIrectOr ,2,,18172.0,9755,3,Yes,19,3.0,1,0,28.0,1,2.0,8,0,7,1973,Yes
-672,54,No,non-travel,142.0,,26.0,University,,148.0,4,female,Not Available,4,Advanced, MAnagEr ,4,Single,,13871,2,,12,,3,0,,3,3.0,5,4,4,1969,Yes
+672,54,No,non-travel,142.0,,26.0,University,,148.0,4,female,Unknown,4,Advanced, MAnagEr ,4,Single,,13871,2,,12,,3,0,,3,3.0,5,4,4,1969,Yes
 673,24,No,,1127.0,,18.0,High school,Life Sciences,150.0,2,male,52,3,Entry, lABoRatORy TeCHNiCIAn ,3,Married,2774.0,13257,0,No,12,3.0,3,1,,2,3.0,5,1,2,1999,Yes
 674,37,No,travel_rarely,1189.0,,3.0,University,Life Sciences,,3,male,87,3,Experienced, Sales exEcutiVE ,4,,,14506,2,No,12,3.0,1,0,,3,3.0,5,1,3,1986,Yes
 675,30,No,travel_rarely,1427.0,,2.0,High school,,198.0,2,male,35,2,Entry, LABOrATORy TEChNIciaN ,4,Single,,11162,0,No,13,3.0,4,0,6.0,3,3.0,5,1,2,1993,Yes
 676,34,No,travel_frequently,303.0,,,Master Degree,,216.0,10,female,75,3,Entry, SalEs RePResEnTatIVe ,3,,,11314,6,No,18,3.0,4,1,,3,3.0,4,1,2,1989,No
 677,57,No,travel_rarely,334.0, Research & Development ,24.0,College,,,3,male,83,4,Experienced, HeALtHCarE represEntAtIVe ,4,Divorced,9439.0,23402,3,,16,3.0,2,1,12.0,2,1.0,5,1,4,1966,Yes
-678,38,No,travel_rarely,702.0,,1.0,Master Degree,Life Sciences,230.0,1,female,Not Available,2,Intermediate, SALes eXEcUtIve ,4,Single,,12930,4,,22,,3,0,12.0,2,4.0,8,0,7,1985,No
+678,38,No,travel_rarely,702.0,,1.0,Master Degree,Life Sciences,230.0,1,female,Unknown,2,Intermediate, SALes eXEcUtIve ,4,Single,,12930,4,,22,,3,0,12.0,2,4.0,8,0,7,1985,No
 679,41,Yes,travel_rarely,nan,,20.0,College,Marketing,,2,female,70,3,Entry, Sales RePreSENtATIve ,2,,,21728,1,Yes,22,4.0,4,0,4.0,5,2.0,4,0,2,1982,Yes
 680,42,No,,926.0,,21.0,College,,270.0,3,female,36,3,Intermediate, mANUfacTURINg DiREcTor ,3,Divorced,5265.0,16439,2,,16,3.0,2,1,11.0,5,3.0,5,0,2,1981,No
 681,34,No,,878.0,,10.0,Master Degree,,277.0,4,male,43,3,Entry, reseARCh SciEnTiST ,3,Divorced,3815.0,5972,1,Yes,17,3.0,4,1,,4,4.0,5,2,0,1989,Yes
@@ -633,7 +633,7 @@
 698,34,No,,1303.0,,2.0,Master Degree,,579.0,4,male,62,2,Entry, reSearCH ScientIsT ,3,,2768.0,8416,3,,12,3.0,3,1,14.0,3,3.0,7,5,7,1989,Yes
 699,33,Yes,travel_rarely,587.0,,10.0,High school,,,1,male,38,1,Entry, lABorATORY TEcHNiCiaN ,4,Divorced,3408.0,6705,7,No,13,3.0,1,3,8.0,2,3.0,4,1,3,1990,No
 700,36,No,non-travel,635.0,,,Master Degree,Medical,592.0,2,male,32,3,Experienced, SAlEs EXEcuTIvE ,4,Single,,15318,1,,14,3.0,4,0,,3,2.0,10,9,7,1987,Yes
-701,41,No,non-travel,267.0, Sales ,10.0,College,,599.0,4,male,Not Available,3,Intermediate, SAlES ExecutIve ,4,Single,,13430,7,No,14,3.0,4,0,,3,3.0,14,1,10,1982,Yes
+701,41,No,non-travel,267.0, Sales ,10.0,College,,599.0,4,male,Unknown,3,Intermediate, SAlES ExecutIve ,4,Single,,13430,7,No,14,3.0,4,0,,3,3.0,14,1,10,1982,Yes
 702,39,No,travel_frequently,443.0,,8.0,High school,,,3,female,48,3,Entry, lABOrAToRY TEcHniCIan ,3,Married,3755.0,17872,1,No,11,3.0,1,1,,3,3.0,8,0,7,1984,Yes
 703,26,No,travel_rarely,703.0,,28.0,College,Marketing,641.0,1,male,66,3,Intermediate, sAlES eXEcuTiVE ,2,Married,,7428,1,,20,4.0,4,2,,5,4.0,5,1,4,1997,Yes
 704,24,Yes,travel_frequently,1287.0, Research & Development ,7.0,University,,,1,female,55,3,Entry, LaBOrAtory TECHNIciAN ,3,,,14168,1,,16,3.0,4,1,6.0,4,3.0,6,1,2,1999,Yes
@@ -643,8 +643,8 @@
 708,23,No,travel_rarely,650.0,,,High school,,758.0,2,male,37,3,Entry, LABOrATORy TEchNICian ,1,,,4344,1,No,14,3.0,4,1,5.0,2,4.0,4,0,2,2000,Yes
 709,39,No,travel_rarely,141.0,,,University,,760.0,3,female,44,4,Intermediate, huMaN RESOurcES ,2,,,18767,9,,15,3.0,3,1,,3,1.0,8,3,6,1984,No
 710,52,No,non-travel,715.0,,19.0,Master Degree,Medical,791.0,4,male,41,3,Entry, REseARcH ScIENTiSt ,4,,4258.0,26589,0,No,18,3.0,1,1,,3,3.0,4,1,2,1971,Yes
-711,26,Yes,,nan,,8.0,University,,796.0,4,male,Not Available,2,Intermediate, SalEs exeCuTiVE ,1,Single,5326.0,3064,6,No,17,3.0,3,0,,2,2.0,4,1,2,1997,Yes
-712,54,No,,376.0,,19.0,Master Degree,,799.0,4,female,Not Available,3,Intermediate, mAnUfaCTURINg DIRECTOr ,1,Divorced,5485.0,22670,9,Yes,11,,2,2,,4,3.0,5,1,4,1969,Yes
+711,26,Yes,,nan,,8.0,University,,796.0,4,male,Unknown,2,Intermediate, SalEs exeCuTiVE ,1,Single,5326.0,3064,6,No,17,3.0,3,0,,2,2.0,4,1,2,1997,Yes
+712,54,No,,376.0,,19.0,Master Degree,,799.0,4,female,Unknown,3,Intermediate, mAnUfaCTURINg DIRECTOr ,1,Divorced,5485.0,22670,9,Yes,11,,2,2,,4,3.0,5,1,4,1969,Yes
 713,37,No,travel_rarely,571.0,,10.0,High school,Life Sciences,,4,female,82,3,Entry, RESEARCH scIEnTisT ,1,Divorced,2782.0,19905,0,Yes,13,3.0,2,2,,3,2.0,5,4,3,1986,No
 714,50,No,travel_rarely,691.0, Research & Development ,2.0,University,,815.0,3,male,64,3,Advanced, rESEARch DiRector ,3,,17639.0,6881,5,,16,3.0,4,0,,3,3.0,4,0,3,1973,No
 715,42,No,,932.0,,1.0,College,Life Sciences,827.0,4,female,43,2,Intermediate, manUfAcTurInG dIrEctOr ,4,Married,6062.0,4051,9,,13,3.0,4,1,8.0,4,3.0,4,0,2,1981,No
@@ -657,7 +657,7 @@
 722,29,No,travel_rarely,1086.0,,7.0,High school,Medical,,1,female,62,2,Entry, lABoRaTory teCHNiCIan ,4,,2532.0,6054,6,No,14,3.0,3,3,8.0,5,3.0,4,0,3,1994,No
 723,38,No,non-travel,152.0,,10.0,University,,983.0,3,female,85,3,Intermediate, SalEs exeCUTivE ,4,,5666.0,19899,1,Yes,13,3.0,2,0,6.0,1,3.0,5,1,3,1985,Yes
 724,45,No,travel_rarely,974.0, Research & Development ,1.0,Master Degree,,996.0,4,female,91,3,Entry, lABORatORY TeChNiCiAN ,4,Divorced,,11005,3,No,14,,4,2,8.0,2,3.0,5,0,2,1978,No
-725,31,No,travel_frequently,853.0,,1.0,High school,,1011.0,3,female,Not Available,3,Intermediate, ManufActuRiNG DIrecTOr ,1,,,11275,1,No,12,3.0,3,1,4.0,1,3.0,4,0,3,1992,No
+725,31,No,travel_frequently,853.0,,1.0,High school,,1011.0,3,female,Unknown,3,Intermediate, ManufActuRiNG DIrecTOr ,1,,,11275,1,No,12,3.0,3,1,4.0,1,3.0,4,0,3,1992,No
 726,22,No,,217.0, Research & Development ,8.0,High school,Life Sciences,1019.0,2,male,94,1,Entry, LaBOratory TeChnICiAn ,1,,,6881,1,,15,3.0,1,1,4.0,3,2.0,4,1,1,2001,Yes
 727,59,No,travel_rarely,715.0,,2.0,University,,1032.0,3,female,69,2,Advanced, MANUFActUrING directoR ,4,,13726.0,21829,3,,13,3.0,1,0,,4,3.0,5,4,3,1964,No
 728,45,No,,1234.0, Sales ,11.0,College,,1045.0,4,female,90,3,Advanced, maNAGer ,4,Married,,5404,3,No,13,3.0,2,1,26.0,4,4.0,9,1,1,1978,No
@@ -728,7 +728,7 @@
 795,29,No,travel_rarely,nan,,13.0,College,Other,2053.0,4,male,46,2,Intermediate, LabOratoRY tEcHNiciAN ,2,,,23679,4,,13,3.0,1,1,10.0,2,3.0,4,0,3,1994,No
 796,34,No,,nan,,8.0,University,,2068.0,2,male,82,4,Intermediate, lABoRaToRy TEChnicIAN ,3,,4404.0,10228,2,No,12,3.0,1,0,,3,4.0,4,1,2,1989,Yes
 797,27,No,travel_rarely,591.0,,2.0,High school,,7.0,1,male,40,3,Entry, lAbOrAtorY tEChNicIan ,2,Married,,16632,9,No,12,3.0,4,1,6.0,3,3.0,2,2,2,1996,No
-798,31,No,,670.0, Research & Development ,26.0,High school,,16.0,1,male,Not Available,3,Entry, rEseArCh SCieNtiST ,3,Divorced,,15170,1,,17,3.0,4,1,5.0,1,2.0,5,4,3,1992,Yes
+798,31,No,,670.0, Research & Development ,26.0,High school,,16.0,1,male,Unknown,3,Entry, rEseArCh SCieNtiST ,3,Divorced,,15170,1,,17,3.0,4,1,5.0,1,2.0,5,4,3,1992,Yes
 799,34,No,travel_rarely,1346.0,,,College,,18.0,2,male,93,3,Entry, lAbORAtORy TECHNicIaN ,4,Divorced,,8758,0,,11,3.0,3,1,3.0,2,3.0,2,1,2,1989,Yes
 800,28,Yes,travel_rarely,103.0, Research & Development ,24.0,University,Life Sciences,19.0,3,male,50,2,Entry, lABoRAtoRY TecHnIcian ,3,Single,,12947,5,Yes,14,3.0,2,0,6.0,4,3.0,4,0,3,1995,Yes
 801,32,No,travel_rarely,334.0,,5.0,College,,21.0,1,male,80,4,Entry, REseaRch sciEntiST ,2,Divorced,,15053,0,Yes,12,3.0,4,2,7.0,5,2.0,6,0,5,1991,Yes
@@ -749,10 +749,10 @@
 816,34,No,travel_rarely,1153.0,,1.0,College,Medical,110.0,1,male,94,3,Intermediate, MaNuFaCTUrING dirECtoR ,2,Married,,17736,1,No,15,3.0,3,0,,2,3.0,5,1,3,1989,Yes
 817,51,No,travel_rarely,432.0,,9.0,Master Degree,,116.0,4,male,96,3,Entry, lABORAtORY tEcHNiCIAn ,4,,,18725,3,,23,4.0,2,2,10.0,4,3.0,4,0,3,1972,Yes
 818,24,No,travel_rarely,1353.0, Sales ,3.0,College,Other,128.0,1,female,33,3,Intermediate, sAles ExecUtive ,3,Married,,17519,0,No,21,4.0,1,1,4.0,2,2.0,3,0,2,1999,Yes
-819,44,No,,489.0,,23.0,University,,132.0,2,male,Not Available,3,Intermediate, LabOrAtory TechNIcIan ,2,Married,,25043,4,,12,3.0,3,1,,3,4.0,3,1,2,1979,Yes
+819,44,No,,489.0,,23.0,University,,132.0,2,male,Unknown,3,Intermediate, LabOrAtory TechNIcIan ,2,Married,,25043,4,,12,3.0,3,1,,3,4.0,3,1,2,1979,Yes
 820,37,Yes,travel_rarely,807.0,,6.0,Master Degree,Human Resources,133.0,3,male,63,3,Entry, hUMan REsOurCEs ,1,Divorced,,23648,4,,22,4.0,4,0,,3,3.0,3,0,2,1986,Yes
 821,59,No,non-travel,1420.0,,2.0,Master Degree,Human Resources,,3,female,32,2,Expert, MAnAGER ,4,,18844.0,21922,9,No,21,4.0,4,1,,3,3.0,3,2,2,1964,No
-822,25,No,,1280.0,,7.0,High school,,143.0,4,male,Not Available,2,Entry, ReSEarch SCIeNTISt ,4,Married,,26897,1,No,11,3.0,3,2,,2,,2,2,1,1998,Yes
+822,25,No,,1280.0,,7.0,High school,,143.0,4,male,Unknown,2,Entry, ReSEarch SCIeNTISt ,4,Married,,26897,1,No,11,3.0,3,2,,2,,2,2,1,1998,Yes
 823,43,No,,957.0,,,University,Medical,171.0,2,female,72,4,Entry, rESEaRcH SciEnTiST ,3,Single,4739.0,16090,4,,12,3.0,4,0,,2,3.0,3,1,2,1980,Yes
 824,50,No,travel_frequently,809.0,,12.0,University,,,3,female,77,3,Experienced, SALES eXeCUtive ,4,Single,,6645,4,No,11,3.0,4,0,16.0,3,,2,2,1,1973,No
 825,31,Yes,travel_rarely,542.0,,20.0,University,,175.0,2,female,71,1,Intermediate, sALEs exEcUtIve ,3,,,24788,3,Yes,11,3.0,3,1,4.0,2,3.0,2,2,2,1992,Yes
@@ -770,19 +770,19 @@
 837,31,No,travel_rarely,140.0,,12.0,High school,Medical,246.0,3,female,95,3,Entry, ReseArcH ScIEnTIst ,4,,3929.0,6984,8,,23,4.0,3,1,7.0,0,3.0,4,0,2,1992,Yes
 838,34,No,travel_rarely,629.0,,27.0,College,Medical,247.0,4,female,95,3,Entry, RESEarcH sciEnTIsT ,2,,,5711,2,No,15,3.0,4,0,9.0,3,3.0,3,1,2,1989,Yes
 839,50,No,,328.0, Research & Development ,1.0,University,,249.0,3,male,86,2,Entry, laBORATORY tECHNiciAN ,3,,,3425,2,,15,3.0,4,1,,2,2.0,3,0,2,1973,No
-840,53,No,,1084.0,,13.0,College,,250.0,4,female,Not Available,4,Intermediate, mAnufACTuRInG dIReCtoR ,1,Divorced,,26250,1,No,11,3.0,3,2,5.0,3,3.0,4,1,3,1970,No
+840,53,No,,1084.0,,13.0,College,,250.0,4,female,Unknown,4,Intermediate, mAnufACTuRInG dIReCtoR ,1,Divorced,,26250,1,No,11,3.0,3,2,5.0,3,3.0,4,1,3,1970,No
 841,35,No,travel_frequently,nan,,,University,Medical,269.0,2,female,37,3,Intermediate, laborAToRy teCHnIcIAn ,2,Single,4425.0,15986,5,,11,3.0,4,0,,5,3.0,6,1,2,1988,Yes
 842,27,No,travel_frequently,472.0,,1.0,High school,,,3,male,60,2,Intermediate, manuFactuRinG DIrECtor ,1,Married,,9679,5,,19,3.0,3,1,,1,3.0,2,2,0,1996,No
 843,40,No,,905.0,,,College,,,3,male,99,3,Intermediate, lAborAToRY tEChnIciAN ,4,Married,,16523,8,,15,3.0,3,1,,2,4.0,7,3,7,1983,Yes
 844,22,No,,1136.0,,,University,Life Sciences,,22,male,60,4,Entry, researCH SCientist ,2,,2328.0,12392,1,,16,3.0,1,1,4.0,2,2.0,4,2,2,2001,No
 845,40,No,,1151.0,,,PhD,Life Sciences,287.0,4,male,63,2,Intermediate, hEaltHcare rEpREseNTatiVE ,4,,,14242,9,No,14,3.0,4,1,5.0,5,1.0,3,0,2,1983,Yes
-846,46,No,,644.0,,1.0,Master Degree,,288.0,4,male,Not Available,3,Experienced, HealThcARe repReSeNTAtivE ,1,,,12368,7,No,16,3.0,3,1,17.0,3,3.0,4,0,3,1977,Yes
+846,46,No,,644.0,,1.0,Master Degree,,288.0,4,male,Unknown,3,Experienced, HealThcARe repReSeNTAtivE ,1,,,12368,7,No,16,3.0,3,1,17.0,3,3.0,4,0,3,1977,Yes
 847,30,Yes,,1005.0,,3.0,University,Technical Degree,297.0,4,female,88,3,Entry, ReSeArcH ScIenTIsT ,1,,2657.0,8556,5,Yes,11,3.0,3,0,8.0,5,3.0,5,0,4,1993,Yes
 848,29,Yes,,992.0,,1.0,University,,,3,male,85,3,Entry, ResEARCh SCIENtIsT ,3,Single,,19757,0,,14,3.0,4,0,,1,2.0,6,1,5,1994,No
 849,54,No,,1147.0,,3.0,University,,303.0,4,female,52,3,Intermediate, SALEs eXecuTivE ,1,Married,5940.0,17011,2,,14,3.0,4,1,16.0,4,3.0,6,0,5,1969,No
 850,33,No,travel_rarely,147.0, Research & Development ,4.0,Master Degree,,305.0,3,female,47,2,Entry, rESeArCH sCIeNtISt ,2,Married,2622.0,13248,6,,21,4.0,4,0,,3,3.0,3,1,1,1990,Yes
 851,52,No,travel_rarely,1323.0,,2.0,University,,316.0,3,female,89,2,Entry, LabOraTory teChnICiAN ,4,Single,3212.0,3300,7,,15,3.0,2,0,,3,2.0,2,2,2,1971,Yes
-852,59,No,travel_rarely,818.0, Human Resources ,6.0,College,Medical,,2,male,Not Available,3,Entry, humAN resoURCEs ,3,Married,,25657,8,,17,3.0,4,0,,2,2.0,2,2,2,1964,No
+852,59,No,travel_rarely,818.0, Human Resources ,6.0,College,Medical,,2,male,Unknown,3,Entry, humAN resoURCEs ,3,Married,,25657,8,,17,3.0,4,0,,2,2.0,2,2,2,1964,No
 853,32,Yes,,515.0,,1.0,University,,,4,male,62,2,Entry, lABorATORy tEChnIcian ,3,Single,,9571,0,,14,3.0,4,0,4.0,2,1.0,3,1,2,1991,Yes
 854,39,No,,1431.0,,,Master Degree,Medical,332.0,24,female,96,3,Entry, LaBoRaTOrY teChNICiaN ,3,Divorced,,15417,7,No,14,3.0,3,3,7.0,1,3.0,3,1,2,1984,No
 855,32,No,non-travel,976.0,,26.0,Master Degree,Marketing,,3,male,100,3,Intermediate, sALEs execUTiVE ,4,,,12069,0,No,18,3.0,1,0,4.0,2,3.0,3,2,2,1991,Yes
@@ -798,7 +798,7 @@
 865,37,No,non-travel,728.0,,1.0,Master Degree,Medical,380.0,1,female,80,3,Experienced, RESEarCh DireCTor ,4,Divorced,,11677,2,Yes,18,3.0,1,2,,2,3.0,5,0,2,1986,No
 866,38,No,travel_rarely,688.0,,23.0,Master Degree,Life Sciences,393.0,4,male,82,3,Intermediate, HEaltHcARe REprEsEnTaTIVE ,4,,,18899,9,,14,3.0,2,1,,2,3.0,2,1,2,1985,No
 867,26,Yes,travel_rarely,1449.0,,16.0,Master Degree,Medical,394.0,1,male,45,3,Entry, lABOratOry teCHNiCIan ,2,Divorced,,14180,2,Yes,13,3.0,4,1,,2,3.0,3,0,2,1997,No
-868,49,No,,636.0,,10.0,Master Degree,Life Sciences,396.0,3,female,Not Available,3,Expert, ReSEaRCh DIrECTOr ,1,Single,18665.0,25594,9,Yes,11,3.0,4,0,,4,3.0,3,1,2,1974,Yes
+868,49,No,,636.0,,10.0,Master Degree,Life Sciences,396.0,3,female,Unknown,3,Expert, ReSEaRCh DIrECTOr ,1,Single,18665.0,25594,9,Yes,11,3.0,4,0,,4,3.0,3,1,2,1974,Yes
 869,31,No,travel_frequently,444.0, Sales ,5.0,University,,,4,female,84,3,Entry, SaLeS REPRESENtATIvE ,2,Divorced,2789.0,3909,1,,11,3.0,3,1,2.0,5,2.0,2,2,2,1992,Yes
 870,37,No,travel_frequently,889.0,,9.0,University,Medical,403.0,2,male,53,3,Entry, REseARch sCIENtIst ,4,Married,,11411,1,,12,3.0,3,3,,3,2.0,4,1,2,1986,No
 873,31,No,,nan, Research & Development ,2.0,Master Degree,,,3,male,32,3,Entry, ReSEaRCh SCIEnTist ,4,,,7747,0,,18,3.0,2,1,3.0,2,1.0,2,2,2,1992,Yes
@@ -807,7 +807,7 @@
 887,27,No,travel_rarely,1469.0,,1.0,College,,,4,male,82,3,Entry, LaBoRatORY TECHNiCian ,2,,,17881,1,No,11,3.0,2,1,5.0,2,3.0,5,0,4,1996,Yes
 888,49,No,travel_rarely,1261.0,,7.0,University,Other,,2,male,31,2,Experienced, hEalTHcare ReprEseNtAtIve ,3,Single,10965.0,12066,8,No,24,4.0,3,0,,2,3.0,5,0,0,1974,Yes
 898,25,Yes,travel_rarely,688.0,,3.0,University,Medical,,1,male,91,3,Entry, LaBoRATorY tEChniCIAN ,1,Married,,9396,5,No,13,3.0,3,1,6.0,5,,2,0,2,1998,Yes
-900,52,No,travel_rarely,1490.0,,4.0,College,Life Sciences,,4,female,Not Available,3,Advanced, MAnAGeR ,4,Married,,10310,2,No,13,3.0,4,0,31.0,2,1.0,5,1,4,1971,No
+900,52,No,travel_rarely,1490.0,,4.0,College,Life Sciences,,4,female,Unknown,3,Advanced, MAnAGeR ,4,Married,,10310,2,No,13,3.0,4,0,31.0,2,1.0,5,1,4,1971,No
 901,34,Yes,travel_frequently,296.0,,6.0,College,,555.0,4,female,33,1,Entry, saLES REPrEsentATivE ,3,,,12253,0,No,16,3.0,4,1,3.0,3,2.0,2,1,0,1989,Yes
 902,26,No,travel_rarely,1349.0,,23.0,University,Life Sciences,,1,female,90,3,Entry, REseARcH sCiENTist ,4,Divorced,,3032,1,No,22,4.0,2,2,,3,1.0,3,0,2,1997,Yes
 903,29,No,,986.0,,3.0,Master Degree,,564.0,2,male,93,2,Experienced, rEseArch DiRECTOr ,3,,11935.0,21526,1,No,18,3.0,3,0,,2,3.0,10,0,7,1994,Yes
@@ -820,7 +820,7 @@
 910,22,Yes,,1368.0, Research & Development ,,High school,Technical Degree,593.0,3,male,99,2,Entry, lAboRatOrY TechNiCiAn ,3,Single,3894.0,9129,5,No,16,3.0,3,0,4.0,3,3.0,2,1,2,2001,Yes
 911,29,No,travel_rarely,232.0,,19.0,University,Technical Degree,611.0,4,male,34,3,Intermediate, MAnUfACturINg DIrecTOR ,4,Divorced,4262.0,22645,4,No,12,3.0,2,2,8.0,2,4.0,3,1,2,1994,Yes
 912,46,No,travel_frequently,1034.0, Research & Development ,18.0,High school,Medical,624.0,1,female,86,3,Experienced, HeAlthcaRE rEPrEseNTaTIVE ,3,Married,10527.0,8984,5,No,11,3.0,4,0,,3,2.0,2,1,2,1977,Yes
-913,32,Yes,,1474.0, Sales ,11.0,Master Degree,Other,631.0,4,male,Not Available,4,Intermediate, sALeS eXecuTIvE ,3,,,23914,8,,12,3.0,4,0,,2,3.0,4,1,2,1991,Yes
+913,32,Yes,,1474.0, Sales ,11.0,Master Degree,Other,631.0,4,male,Unknown,4,Intermediate, sALeS eXecuTIvE ,3,,,23914,8,,12,3.0,4,0,,2,3.0,4,1,2,1991,Yes
 914,24,No,,nan,,24.0,University,Medical,632.0,4,male,38,3,Entry, SALes REpResENTaTIVE ,4,,2400.0,5530,0,No,13,3.0,3,2,3.0,3,3.0,2,2,1,1999,No
 915,35,No,travel_rarely,538.0,,25.0,College,,652.0,1,male,54,2,Intermediate, LabOrAtOrY TechNIcIaN ,4,Single,3681.0,14004,4,No,14,3.0,4,0,,3,3.0,3,0,2,1988,No
 916,42,No,,622.0,,2.0,Master Degree,Life Sciences,659.0,3,female,81,3,Intermediate, healTHCaRe rePreSenTAtiVE ,4,Married,,5718,1,No,13,3.0,2,2,10.0,4,3.0,10,2,2,1981,Yes
@@ -857,19 +857,19 @@
 947,52,No,travel_rarely,1325.0, Research & Development ,,Master Degree,Life Sciences,813.0,25,female,82,3,Intermediate, laBORatoRy TEcHnician ,3,,3149.0,21821,8,,20,4.0,2,1,9.0,3,3.0,5,1,4,1971,Yes
 948,33,Yes,travel_rarely,118.0,,16.0,University,Marketing,819.0,1,female,69,3,Intermediate, SALeS eXEcuTive ,1,Single,5324.0,26507,5,,15,3.0,3,0,,3,3.0,3,0,2,1990,No
 949,35,No,travel_rarely,1258.0, Research & Development ,,Master Degree,,,20,female,40,4,Entry, ReSeaRch SCIentiST ,3,Single,,13301,3,No,13,3.0,3,0,7.0,0,3.0,2,2,2,1988,No
-950,28,Yes,,890.0,,2.0,Master Degree,,,3,male,Not Available,3,Entry, ReSEaRcH SCIeNtIsT ,3,Single,4382.0,16374,6,No,17,3.0,4,0,5.0,3,2.0,2,2,1,1995,Yes
+950,28,Yes,,890.0,,2.0,Master Degree,,,3,male,Unknown,3,Entry, ReSEaRcH SCIeNtIsT ,3,Single,4382.0,16374,6,No,17,3.0,4,0,5.0,3,2.0,2,2,1,1995,Yes
 951,36,No,travel_rarely,1041.0,,13.0,University,Human Resources,,3,male,36,3,Entry, humaN ReSOuRCes ,2,Married,,25527,4,,13,3.0,2,1,,2,3.0,5,0,4,1987,Yes
 952,34,No,travel_frequently,702.0, Research & Development ,16.0,Master Degree,,838.0,3,female,100,2,Entry, RESEarch ScieNtIst ,4,Single,2553.0,8306,1,No,16,3.0,3,0,6.0,3,3.0,5,1,3,1989,Yes
-953,34,No,,829.0,,3.0,College,,847.0,3,male,Not Available,3,Entry, humAn resourCeS ,4,,,2243,0,,19,3.0,3,1,4.0,1,1.0,3,0,2,1989,No
+953,34,No,,829.0,,3.0,College,,847.0,3,male,Unknown,3,Entry, humAn resourCeS ,4,,,2243,0,,19,3.0,3,1,4.0,1,1.0,3,0,2,1989,No
 954,44,No,travel_rarely,625.0,,4.0,University,,852.0,4,male,50,3,Intermediate, HeALTHcARE RePrESEnTativE ,2,Single,5933.0,5197,9,,12,3.0,4,0,10.0,2,2.0,5,2,3,1979,Yes
 955,32,No,,nan,,13.0,Master Degree,Life Sciences,859.0,2,male,73,3,Intermediate, sAlES eXecUtivE ,4,Divorced,4403.0,9250,2,,11,3.0,3,1,8.0,3,2.0,5,0,3,1991,Yes
 956,53,No,,661.0,,7.0,College,,,1,female,78,2,Experienced, sALes ExEcUtiVE ,4,Married,10934.0,20715,7,Yes,18,3.0,4,1,35.0,3,3.0,5,0,4,1970,No
-957,22,No,,nan,,1.0,College,Life Sciences,872.0,4,male,Not Available,2,Intermediate, MANUfactUrING DIRECtOr ,4,,,19146,6,,22,4.0,1,2,4.0,2,1.0,2,2,2,2001,No
+957,22,No,,nan,,1.0,College,Life Sciences,872.0,4,male,Unknown,2,Intermediate, MANUfactUrING DIRECtOr ,4,,,19146,6,,22,4.0,1,2,4.0,2,1.0,2,2,2,2001,No
 958,44,No,travel_rarely,986.0,,8.0,Master Degree,Life Sciences,874.0,1,male,62,4,Entry, LAbORaToRY TecHNICiAn ,4,,,5044,2,Yes,24,4.0,3,1,10.0,2,2.0,3,0,2,1979,No
 959,35,Yes,travel_frequently,nan,,25.0,Master Degree,Life Sciences,881.0,4,female,96,3,Entry, rEseArcH SCiEntist ,2,Divorced,2022.0,16612,1,,19,3.0,1,1,10.0,3,2.0,10,7,8,1988,Yes
 960,25,No,,583.0,,4.0,High school,,885.0,3,male,87,2,Intermediate, sAleS execUTIVE ,1,,4256.0,18154,1,No,12,3.0,1,0,5.0,1,4.0,5,0,3,1998,No
 961,49,No,travel_rarely,1418.0,,1.0,University,Technical Degree,,3,female,36,3,Entry, ResEArch scIEntIsT ,1,,3580.0,10554,2,No,16,3.0,2,1,7.0,2,3.0,4,0,2,1974,No
-962,24,No,non-travel,1269.0,,,High school,Life Sciences,888.0,1,male,Not Available,2,Entry, labORatOry TEcHniCIAn ,4,,,10778,0,,17,3.0,4,0,,2,2.0,5,3,4,1999,No
+962,24,No,non-travel,1269.0,,,High school,Life Sciences,888.0,1,male,Unknown,2,Entry, labORatOry TEcHniCIAn ,4,,,10778,0,,17,3.0,4,0,,2,2.0,5,3,4,1999,No
 963,38,No,travel_rarely,395.0, Sales ,9.0,University,Marketing,893.0,2,male,98,2,Entry, sALeS RePresenTAtivE ,2,,2899.0,12102,0,,19,3.0,4,1,3.0,3,3.0,2,1,2,1985,Yes
 964,29,Yes,travel_rarely,341.0,,1.0,University,Medical,896.0,2,female,48,2,Entry, sAlES REPreSentAtiVe ,3,,,23522,6,Yes,19,3.0,3,3,5.0,3,3.0,3,0,2,1994,No
 965,43,No,travel_frequently,nan,,1.0,University,Life Sciences,902.0,4,female,33,3,Intermediate, hEaLtHCaRE rEPReSeNTAtIvE ,4,Married,5562.0,21782,4,,13,3.0,2,1,12.0,2,2.0,5,2,2,1980,Yes
@@ -981,14 +981,14 @@
 1083,31,No,travel_frequently,715.0,,2.0,Master Degree,,,4,male,54,3,Intermediate, Sales exeCuTive ,1,Single,,21602,7,,13,3.0,4,0,,3,3.0,5,0,3,1992,No
 1084,36,No,travel_rarely,559.0,,12.0,Master Degree,Life Sciences,,3,female,76,3,Intermediate, MaNuFaCTuring dIRECTOr ,3,Married,,12421,9,Yes,12,3.0,2,2,7.0,2,3.0,3,1,1,1987,Yes
 1085,21,No,,546.0,,,High school,Medical,1623.0,3,male,97,3,Entry, reSEArcH sCiENTisT ,4,Single,3117.0,26009,1,No,18,3.0,3,0,,2,,2,2,2,2002,No
-1086,47,No,,1176.0,,26.0,Master Degree,,,4,female,Not Available,3,Expert, mANager ,3,Married,,5220,3,No,11,3.0,3,1,27.0,2,3.0,5,1,0,1976,No
+1086,47,No,,1176.0,,26.0,Master Degree,,,4,female,Unknown,3,Expert, mANager ,3,Married,,5220,3,No,11,3.0,3,1,27.0,2,3.0,5,1,0,1976,No
 1087,39,No,,711.0,,4.0,University,Medical,,1,female,81,3,Intermediate, MaNuFaCtUriNG DIrectoR ,3,,,3140,0,No,13,3.0,4,0,,2,1.0,9,3,8,1984,Yes
 1088,40,No,,448.0,,16.0,University,,1641.0,3,female,84,3,Experienced, MANufActURing DIreCtor ,4,,,19948,6,,15,,4,0,18.0,2,2.0,4,3,3,1983,Yes
 1089,48,No,travel_frequently,365.0,,4.0,PhD,,1644.0,3,male,89,2,Advanced, MAnageR ,4,,15202.0,5602,2,No,25,4.0,2,1,,3,3.0,2,2,2,1975,Yes
 1090,35,Yes,,763.0,,,College,Medical,1645.0,1,male,59,1,Intermediate, sales eXecUTIvE ,4,,,22098,6,Yes,14,3.0,4,2,,2,2.0,2,2,2,1988,No
 1091,27,No,travel_rarely,486.0, Research & Development ,8.0,University,Medical,1647.0,2,female,86,4,Entry, reseArCH scIentISt ,3,,,22490,7,,17,3.0,1,0,5.0,0,3.0,3,0,2,1996,No
 1092,27,No,,591.0,,2.0,University,Medical,1648.0,4,male,87,3,Entry, ReSeARcH SCIentISt ,4,Single,2580.0,6297,2,No,13,3.0,3,0,,0,2.0,4,1,2,1996,Yes
-1093,40,Yes,travel_rarely,1329.0,,7.0,University,,,1,male,Not Available,3,Entry, LABoraTorY TeChNiciaN ,1,,2166.0,3339,3,Yes,14,3.0,2,0,10.0,3,1.0,4,0,3,1983,Yes
+1093,40,Yes,travel_rarely,1329.0,,7.0,University,,,1,male,Unknown,3,Entry, LABoraTorY TeChNiciaN ,1,,2166.0,3339,3,Yes,14,3.0,2,0,10.0,3,1.0,4,0,3,1983,Yes
 1094,29,No,,469.0,,10.0,University,,,3,male,42,2,Intermediate, saLeS eXecutIve ,3,Single,,23413,9,No,11,3.0,3,0,,2,3.0,5,1,4,1994,Yes
 1095,36,No,,711.0,,5.0,Master Degree,Life Sciences,1651.0,2,female,42,3,Experienced, heAlTHCARe REpRESentAtiVE ,1,Married,,22792,4,No,12,,3,2,9.0,6,3.0,3,0,2,1987,Yes
 1096,49,No,travel_rarely,301.0,,22.0,Master Degree,Other,1655.0,1,female,72,3,Advanced, reseArCh DIrEcToR ,2,Married,,3498,3,,16,3.0,2,2,27.0,2,3.0,4,1,2,1974,Yes
@@ -1003,17 +1003,17 @@
 1105,55,No,,1441.0,,,University,Technical Degree,1694.0,12,male,94,2,Entry, ResEARch sCIENTIST ,2,Divorced,,23737,5,No,12,,4,1,8.0,1,3.0,4,1,2,1968,Yes
 1106,23,Yes,,427.0,,7.0,University,Life Sciences,1702.0,3,male,99,3,Entry, sAlEs rEpreSEnTATiVe ,4,Divorced,,25103,1,Yes,21,4.0,2,1,3.0,2,3.0,3,0,2,2000,No
 1107,26,No,,390.0,,17.0,Master Degree,,,4,male,62,1,Entry, LAboRATORY TECHNICIaN ,3,,2305.0,6217,1,No,15,3.0,3,3,,3,4.0,3,0,2,1997,Yes
-1108,32,No,travel_frequently,585.0,,10.0,University,,,1,male,Not Available,3,Entry, reSEArCH SCiENTIst ,3,Married,3433.0,17360,6,,13,3.0,1,1,,3,2.0,5,1,3,1991,Yes
+1108,32,No,travel_frequently,585.0,,10.0,University,,,1,male,Unknown,3,Entry, reSEArCH SCiENTIst ,3,Married,3433.0,17360,6,,13,3.0,1,1,,3,2.0,5,1,3,1991,Yes
 1109,31,No,,741.0,,2.0,Master Degree,Life Sciences,1721.0,2,male,69,3,Entry, LABoraTOry TECHniCiaN ,3,Married,3477.0,18103,1,,14,3.0,4,1,6.0,2,4.0,5,0,3,1992,No
 1110,41,No,non-travel,552.0, Human Resources ,4.0,University,Human Resources,1722.0,3,male,60,1,Intermediate, huMAn Resources ,2,Married,,20794,6,No,19,,2,1,,4,3.0,3,1,2,1982,No
 1111,24,No,travel_rarely,506.0,,29.0,High school,Medical,,2,male,91,3,Entry, lAbOrAtoRY tecHniCian ,1,,3907.0,3622,1,No,13,3.0,2,3,6.0,2,4.0,6,1,2,1999,Yes
 1112,36,Yes,,1456.0,,13.0,PhD,Marketing,1733.0,2,male,96,2,Intermediate, SAlES EXEcUTivE ,1,,,8658,5,Yes,13,3.0,2,3,16.0,3,3.0,2,2,2,1987,Yes
 1113,23,No,,160.0,,4.0,High school,,1735.0,3,female,51,3,Entry, laboraTory tEcHniciaN ,2,Single,,12862,1,No,13,3.0,3,0,3.0,3,1.0,3,1,2,2000,No
 1114,24,No,,897.0,,,University,Medical,1746.0,35,male,59,3,Entry, humaN ReSOurCeS ,4,Married,,2097,0,No,14,3.0,4,1,3.0,2,3.0,2,2,1,1999,No
-1115,30,Yes,travel_frequently,600.0,,,University,,,3,female,Not Available,2,Entry, HuMan ResOUrces ,4,Divorced,,9732,6,No,11,3.0,3,1,,0,2.0,4,1,2,1993,No
+1115,30,Yes,travel_frequently,600.0,,,University,,,3,female,Unknown,2,Entry, HuMan ResOUrces ,4,Divorced,,9732,6,No,11,3.0,3,1,,0,2.0,4,1,2,1993,No
 1116,31,No,,1003.0,,5.0,University,,,1,male,51,3,Intermediate, SalEs EXecUTIVE ,3,,,20943,1,No,19,3.0,3,1,6.0,3,3.0,5,0,2,1992,Yes
 1117,27,No,,1054.0,,,University,,1751.0,48,female,67,3,Entry, researcH ScienTist ,4,,3445.0,6152,1,,11,3.0,3,0,6.0,5,2.0,6,1,4,1996,No
-1118,29,Yes,travel_rarely,428.0,,9.0,University,,,2,female,Not Available,1,Entry, salES rePResEntatIve ,2,Single,2760.0,14630,1,,13,3.0,3,0,2.0,3,3.0,2,2,2,1994,Yes
+1118,29,Yes,travel_rarely,428.0,,9.0,University,,,2,female,Unknown,1,Entry, salES rePResEntatIve ,2,Single,2760.0,14630,1,,13,3.0,3,0,2.0,3,3.0,2,2,2,1994,Yes
 1119,29,No,,461.0,,1.0,University,,1753.0,4,male,70,4,Intermediate, HEaLThcarE RePRESeNtativE ,3,,6294.0,23060,8,Yes,12,3.0,4,0,10.0,5,4.0,3,0,2,1994,No
 1120,53,No,,661.0,,,Master Degree,,,1,female,60,2,Advanced, MAnuFaCtUrINg diRECtor ,3,Married,,22308,4,Yes,20,4.0,4,3,27.0,2,2.0,3,0,2,1970,Yes
 1121,34,No,travel_rarely,511.0,,3.0,College,,,4,female,32,1,Intermediate, sAlES exECuTivE ,4,,,25353,5,No,12,,1,0,,3,3.0,2,2,2,1989,Yes
@@ -1022,7 +1022,7 @@
 1124,46,No,,849.0,,26.0,College,Life Sciences,1801.0,2,male,98,2,Intermediate, SaLES ExECUTIVe ,2,,,25166,8,,15,3.0,3,0,6.0,3,3.0,2,2,2,1977,No
 1125,43,No,non-travel,343.0, Research & Development ,9.0,University,,1813.0,1,male,52,3,Entry, reSEaRCH scIenTisT ,3,,,24978,4,No,13,3.0,3,0,,2,2.0,3,1,2,1980,Yes
 1126,41,No,travel_rarely,nan,,,University,,1814.0,35,male,85,4,Intermediate, hEaLThCAre rEPrEsEntAtIve ,2,Single,,15530,3,,12,3.0,1,0,,3,1.0,3,1,2,1982,No
-1127,31,No,,1125.0,,7.0,Master Degree,,1833.0,1,female,Not Available,3,Experienced, saLES eXeCutive ,1,,,8277,2,No,14,3.0,4,2,9.0,3,3.0,3,2,2,1992,No
+1127,31,No,,1125.0,,7.0,Master Degree,,1833.0,1,female,Unknown,3,Experienced, saLES eXeCutive ,1,,,8277,2,No,14,3.0,4,2,9.0,3,3.0,3,2,2,1992,No
 1128,28,No,travel_rarely,1217.0,,1.0,University,Medical,1834.0,3,female,67,3,Entry, rESEARCh scIEntiSt ,1,,3591.0,12719,1,No,25,4.0,3,1,,3,3.0,3,1,2,1995,No
 1129,38,No,,723.0, Sales ,2.0,Master Degree,,1835.0,2,female,77,1,Intermediate, sales rEpRESEnTatIve ,4,,5405.0,4244,2,Yes,20,4.0,1,2,20.0,4,2.0,4,0,3,1985,Yes
 1130,58,No,travel_frequently,1216.0, Research & Development ,15.0,Master Degree,Life Sciences,1837.0,1,male,87,3,Advanced, reseaRch DIrecTOr ,3,Married,,21624,2,,14,3.0,2,0,23.0,3,3.0,2,2,2,1965,Yes
@@ -1035,7 +1035,7 @@
 1137,29,No,,592.0,,7.0,University,Life Sciences,1883.0,4,male,59,3,Entry, LAboratORY TechNIcIaN ,1,Single,2062.0,19384,3,,14,3.0,2,0,,2,3.0,3,1,2,1994,Yes
 1138,35,No,,219.0,,,College,Other,1886.0,16,female,44,2,Intermediate, mANUFACtURiNg diREctor ,2,Married,,25388,0,,11,3.0,4,0,4.0,2,3.0,3,0,2,1988,No
 1139,34,Yes,non-travel,967.0,,16.0,Master Degree,Technical Degree,1905.0,4,male,85,1,Entry, ResEaRch scientIst ,1,,,14460,1,,23,4.0,2,1,,2,3.0,5,3,0,1989,Yes
-1140,56,Yes,travel_rarely,nan,,24.0,College,,1907.0,1,male,Not Available,3,Entry, laBoRaTORY TecHnician ,4,Single,2587.0,10261,1,No,16,3.0,4,0,5.0,3,3.0,4,1,0,1967,Yes
+1140,56,Yes,travel_rarely,nan,,24.0,College,,1907.0,1,male,Unknown,3,Entry, laBoRaTORY TecHnician ,4,Single,2587.0,10261,1,No,16,3.0,4,0,5.0,3,3.0,4,1,0,1967,Yes
 1141,36,No,,335.0,,17.0,College,Marketing,1908.0,3,male,33,2,Intermediate, sAleS eXeCuTIVE ,2,,5507.0,16822,2,,16,3.0,3,2,,1,1.0,4,1,3,1987,Yes
 1142,31,No,,1079.0,,10.0,College,,,3,female,86,3,Intermediate, SAles exeCUTIvE ,4,Divorced,,20115,2,Yes,11,3.0,4,1,,2,3.0,5,1,4,1992,No
 1143,34,No,,735.0,,3.0,High school,,,4,female,75,2,Intermediate, saLEs ExEcutIve ,4,Married,8103.0,16495,3,Yes,12,3.0,3,0,9.0,3,2.0,4,0,1,1989,Yes
@@ -1045,7 +1045,7 @@
 1147,38,No,travel_rarely,1206.0,,9.0,College,,,2,male,71,3,Entry, rESeArcH sCiEntIsT ,4,Divorced,,14293,2,No,19,3.0,4,2,,0,4.0,5,0,3,1985,No
 1148,31,No,,976.0,,3.0,College,,1948.0,3,male,48,3,Entry, ResEArch sCIEntIst ,1,Divorced,,3995,1,,13,,4,1,4.0,3,,4,2,3,1992,Yes
 1149,53,Yes,,1168.0,,24.0,Master Degree,Life Sciences,,1,male,66,3,Experienced, salES ExecUtIve ,1,,10448.0,5843,6,Yes,13,3.0,2,0,15.0,2,2.0,2,2,2,1970,Yes
-1150,38,No,travel_frequently,1444.0, Human Resources ,1.0,Master Degree,Other,1972.0,4,male,Not Available,3,Entry, Human REsouRCeS ,2,,,5224,0,Yes,11,3.0,2,1,,2,3.0,6,1,2,1985,No
+1150,38,No,travel_frequently,1444.0, Human Resources ,1.0,Master Degree,Other,1972.0,4,male,Unknown,3,Entry, Human REsouRCeS ,2,,,5224,0,Yes,11,3.0,2,1,,2,3.0,6,1,2,1985,No
 1151,54,No,,nan,,10.0,University,,1980.0,3,female,77,3,Intermediate, manuFacTurING DIrector ,1,Single,4440.0,25198,6,Yes,19,,4,0,9.0,3,3.0,5,1,4,1969,No
 1152,23,No,,571.0,,12.0,College,,1982.0,4,male,78,3,Entry, LaboRAtOry tecHniciAn ,4,Single,,13672,1,No,13,3.0,3,0,,6,4.0,5,1,4,2000,Yes
 1153,25,No,,977.0,,2.0,High school,Other,1992.0,4,male,57,3,Entry, LAborAtory TeCHNICIAN ,3,,,7298,6,,19,3.0,3,1,,2,2.0,2,0,2,1998,Yes
@@ -1072,8 +1072,8 @@
 1174,33,No,travel_rarely,134.0,,2.0,University,Life Sciences,242.0,3,male,90,3,Entry, reseaRCH ScIenTisT ,4,,,10515,0,No,14,3.0,1,0,4.0,2,,3,0,2,1990,Yes
 1175,36,No,travel_frequently,635.0,,18.0,High school,,286.0,2,female,73,3,Entry, lABoraTOry TEchniciAN ,4,Single,,7703,1,,13,3.0,1,0,8.0,2,3.0,8,1,7,1987,Yes
 1176,37,No,,1017.0,,,College,Medical,340.0,18,female,83,2,Entry, research sCiEntiSt ,1,,3920.0,18697,2,,14,,1,1,,2,2.0,3,0,2,1986,Yes
-1177,32,No,,1311.0,,7.0,University,,,2,male,Not Available,4,Entry, lABOraTory tEchniCiAN ,2,Married,,26062,1,,20,4.0,3,0,5.0,3,1.0,5,0,3,1991,Yes
-1178,51,No,travel_rarely,1302.0,,,University,Medical,,35,male,Not Available,1,Intermediate, MANuFacturIng DIrectOr ,2,Divorced,,16321,5,,18,3.0,4,1,,3,3.0,4,1,2,1972,Yes
+1177,32,No,,1311.0,,7.0,University,,,2,male,Unknown,4,Entry, lABOraTory tEchniCiAN ,2,Married,,26062,1,,20,4.0,3,0,5.0,3,1.0,5,0,3,1991,Yes
+1178,51,No,travel_rarely,1302.0,,,University,Medical,,35,male,Unknown,1,Intermediate, MANuFacturIng DIrectOr ,2,Divorced,,16321,5,,18,3.0,4,1,,3,3.0,4,1,2,1972,Yes
 1179,49,No,,1091.0,,,College,Technical Degree,431.0,45,female,90,2,Advanced, HEALThCARe REPReSENTatIvE ,3,,13964.0,17810,7,Yes,12,3.0,4,0,,2,3.0,7,0,7,1974,Yes
 1180,35,No,,755.0,,9.0,Master Degree,,496.0,3,male,97,2,Intermediate, heAlthCAre REPResenTaTive ,2,Single,6540.0,19394,9,,19,3.0,3,0,,5,3.0,1,0,0,1988,Yes
 1181,22,No,,253.0,,11.0,University,Medical,511.0,1,female,43,3,Entry, rESeARCh scIentiST ,2,Married,2244.0,24440,1,No,13,3.0,4,1,2.0,1,3.0,2,1,2,2001,No
@@ -1086,7 +1086,7 @@
 1188,28,No,travel_rarely,1169.0,,8.0,College,Medical,869.0,2,male,63,2,Entry, hUmaN reSOuRCeS ,4,Divorced,,23965,1,,13,3.0,4,1,6.0,6,3.0,5,0,4,1995,Yes
 1189,42,No,travel_frequently,1271.0, Research & Development ,2.0,High school,,875.0,2,male,35,3,Entry, REsEARch sCIenTIsT ,4,Single,,9068,5,,14,3.0,4,0,8.0,2,3.0,2,2,2,1981,Yes
 1190,27,No,travel_rarely,618.0,,4.0,University,,,2,female,76,3,Entry, resEARCh SCiENTiST ,3,,2318.0,17808,1,,19,3.0,3,0,1.0,2,3.0,1,0,0,1996,Yes
-1191,40,No,,1469.0,,9.0,Master Degree,,964.0,4,male,Not Available,3,Entry, ResEarch ScIenTIst ,2,,3617.0,25063,8,Yes,14,,4,1,3.0,2,,1,0,0,1983,Yes
+1191,40,No,,1469.0,,9.0,Master Degree,,964.0,4,male,Unknown,3,Entry, ResEarch ScIenTIst ,2,,3617.0,25063,8,Yes,14,,4,1,3.0,2,,1,0,0,1983,Yes
 1192,37,Yes,,625.0,,1.0,Master Degree,Life Sciences,970.0,1,male,46,2,Experienced, SALeS execUtivE ,3,Married,,14922,5,,11,3.0,3,0,,2,1.0,14,11,7,1986,Yes
 1193,29,No,travel_frequently,1404.0,,,University,Technical Degree,,3,female,84,3,Entry, sALES REprEsEntATive ,4,,,18203,1,No,15,3.0,2,1,3.0,5,3.0,3,0,2,1994,No
 1194,38,No,,1391.0, Research & Development ,10.0,High school,,1006.0,3,male,66,3,Entry, RESeARch ScIeNtisT ,3,Married,2684.0,12127,0,,17,3.0,2,1,3.0,0,2.0,2,0,2,1985,No
@@ -1109,7 +1109,7 @@
 1211,24,No,,nan, Research & Development ,,College,Technical Degree,1551.0,3,male,57,2,Entry, LaBoratory TECHnICIAn ,1,,,10036,0,,14,,2,3,,3,3.0,1,0,0,1999,No
 1212,32,No,,824.0,,5.0,College,Life Sciences,1555.0,4,female,67,2,Intermediate, reSEaRCh SCIEnTiSt ,2,Married,5878.0,15624,3,No,12,3.0,1,1,12.0,2,3.0,7,2,5,1991,Yes
 1213,28,Yes,travel_rarely,329.0,,24.0,University,Medical,1604.0,3,male,51,3,Entry, lAbOrAtOrY tEChNiCiAN ,2,Married,,7324,1,,17,3.0,3,3,,3,3.0,1,0,0,1995,No
-1214,49,No,,1313.0, Sales ,11.0,Master Degree,,1757.0,4,female,Not Available,3,Intermediate, saLES exEcutivE ,4,Single,,8191,3,,12,3.0,3,0,8.0,1,4.0,5,0,4,1974,Yes
+1214,49,No,,1313.0, Sales ,11.0,Master Degree,,1757.0,4,female,Unknown,3,Intermediate, saLES exEcutivE ,4,Single,,8191,3,,12,3.0,3,0,8.0,1,4.0,5,0,4,1974,Yes
 1215,38,No,travel_frequently,594.0, Research & Development ,2.0,College,Medical,1760.0,3,female,75,2,Entry, LABorATory TecHnIcIaN ,2,Married,2468.0,15963,4,,14,3.0,2,1,9.0,4,2.0,6,0,5,1985,No
 1216,46,No,travel_rarely,734.0,,2.0,Master Degree,,1789.0,3,male,46,3,Expert, REseARcH DiRectOr ,4,,,14218,7,,17,3.0,3,1,24.0,3,3.0,2,2,2,1977,Yes
 1217,34,Yes,travel_frequently,234.0,,9.0,Master Degree,Life Sciences,1807.0,4,male,93,3,Intermediate, LaBorATORy TeChNiCiAN ,1,,,6208,4,,17,3.0,3,1,,3,2.0,7,0,7,1989,No
@@ -1118,7 +1118,7 @@
 1220,54,No,travel_rarely,431.0,,7.0,Master Degree,Medical,1830.0,4,female,68,3,Intermediate, rESearcH sCientist ,4,Married,,15696,4,No,15,3.0,2,1,14.0,2,2.0,7,1,7,1969,No
 1221,36,No,travel_frequently,1213.0,,2.0,High school,,1890.0,2,male,94,2,Intermediate, hUMaN rESouRces ,4,,3886.0,4223,1,No,21,4.0,4,0,10.0,2,2.0,10,0,8,1987,Yes
 1222,32,Yes,travel_frequently,238.0, Research & Development ,5.0,College,,1939.0,1,female,47,4,Entry, reseaRCh SCIentIst ,3,,,15318,3,Yes,14,3.0,1,0,8.0,2,3.0,4,0,3,1991,No
-1223,32,No,,1146.0,,15.0,Master Degree,,,3,female,Not Available,3,Intermediate, HeaLTHcare RePrESENtATIVe ,4,,6667.0,16542,5,No,18,3.0,2,1,9.0,6,3.0,5,1,2,1991,Yes
+1223,32,No,,1146.0,,15.0,Master Degree,,,3,female,Unknown,3,Intermediate, HeaLTHcare RePrESENtATIVe ,4,,6667.0,16542,5,No,18,3.0,2,1,9.0,6,3.0,5,1,2,1991,Yes
 1224,28,Yes,,1404.0, Research & Development ,17.0,University,,,3,male,32,2,Entry, LaBOrAToRy teChNiciAn ,4,,,18779,5,No,12,3.0,1,1,,2,2.0,4,0,3,1995,Yes
 1225,33,No,,1313.0,,1.0,College,Medical,1994.0,2,male,59,2,Entry, labOrATORy tEChNiCiaN ,3,Divorced,,20439,1,,12,3.0,3,3,,2,2.0,1,0,0,1990,No
 1226,37,Yes,travel_rarely,1373.0,,2.0,College,,4.0,4,male,92,2,Entry, lAbOratOry teChnIcIan ,3,Single,2090.0,2396,6,Yes,15,3.0,2,0,7.0,3,3.0,0,0,0,1986,Yes
@@ -1136,9 +1136,9 @@
 1238,35,No,,1229.0,,,High school,,,46,male,36,4,Entry, LABORatoRy tECHNICIaN ,4,,,4892,1,No,19,,4,0,1.0,2,3.0,1,0,1,1988,Yes
 1239,48,Yes,,626.0,,1.0,College,,64.0,1,male,98,2,Experienced, laBORAToRy TechNicIaN ,3,,,19294,9,,13,3.0,4,0,,2,3.0,1,0,0,1975,No
 1240,35,No,non-travel,1097.0,,11.0,College,Medical,70.0,3,male,79,2,Experienced, healThcaRE REPReSEntAtIVe ,1,Married,,8302,2,Yes,13,3.0,3,1,10.0,3,3.0,4,2,3,1988,Yes
-1241,55,No,travel_rarely,836.0,,8.0,University,,84.0,4,female,Not Available,3,Advanced, MaNaGer ,3,Divorced,,19730,2,Yes,14,3.0,3,3,21.0,2,3.0,5,0,2,1968,Yes
+1241,55,No,travel_rarely,836.0,,8.0,University,,84.0,4,female,Unknown,3,Advanced, MaNaGer ,3,Divorced,,19730,2,Yes,14,3.0,3,3,21.0,2,3.0,5,0,2,1968,Yes
 1242,45,No,,1339.0,,7.0,University,Life Sciences,,2,male,59,3,Experienced, resEaRCH sCienTISt ,1,,9724.0,18787,2,No,17,3.0,3,1,,2,3.0,1,0,0,1978,Yes
-1243,36,Yes,,318.0,,9.0,University,Medical,,4,male,Not Available,2,Entry, ReSEARch SciEntiST ,3,,3388.0,21777,0,,17,3.0,1,1,,0,2.0,1,0,0,1987,Yes
+1243,36,Yes,,318.0,,9.0,University,Medical,,4,male,Unknown,2,Entry, ReSEARch SciEntiST ,3,,3388.0,21777,0,,17,3.0,1,1,,0,2.0,1,0,0,1987,Yes
 1244,36,No,travel_rarely,132.0, Research & Development ,6.0,University,Life Sciences,97.0,2,female,55,4,Entry, LABOrATOrY TEchnIcIAn ,4,,3038.0,22002,3,No,12,3.0,2,0,,3,3.0,1,0,0,1987,Yes
 1245,45,No,travel_rarely,193.0, Research & Development ,6.0,Master Degree,Other,,4,male,52,3,Experienced, ReSeARCh DireCtOr ,1,,,15067,4,Yes,14,3.0,2,0,,3,4.0,0,0,0,1978,No
 1246,55,No,,111.0,,1.0,College,,106.0,1,male,70,3,Experienced, sALES ExecUtIve ,4,Married,,18092,3,,14,3.0,4,1,,4,3.0,1,1,0,1968,Yes
@@ -1149,15 +1149,15 @@
 1251,22,No,,nan, Research & Development ,15.0,University,,144.0,2,female,59,3,Entry, laBorATOrY TeChNIcIAn ,4,Single,,23785,1,No,15,3.0,3,0,,5,3.0,0,0,0,2001,No
 1252,34,No,,1031.0,,,Master Degree,Life Sciences,,24,female,45,2,Intermediate, reSeARCh scientIST ,2,,4505.0,15000,6,,15,3.0,3,1,,3,3.0,1,0,0,1989,Yes
 1253,36,No,,922.0,,3.0,College,Life Sciences,155.0,1,female,39,3,Entry, LAbOrAtorY tEcHNIciaN ,4,Divorced,2835.0,2561,5,,22,4.0,1,1,,2,3.0,1,0,0,1987,No
-1254,19,Yes,travel_rarely,528.0, Sales ,22.0,High school,Marketing,167.0,4,male,Not Available,3,Entry, sALEs RePREsentaTive ,3,Single,,26820,1,Yes,19,3.0,4,0,0.0,2,2.0,0,0,0,2004,Yes
+1254,19,Yes,travel_rarely,528.0, Sales ,22.0,High school,Marketing,167.0,4,male,Unknown,3,Entry, sALEs RePREsentaTive ,3,Single,,26820,1,Yes,19,3.0,4,0,0.0,2,2.0,0,0,0,2004,Yes
 1255,41,No,,nan,,9.0,Master Degree,Life Sciences,200.0,3,male,94,3,Entry, LAboraTOry TeCHniCIan ,1,,,6961,2,,21,4.0,4,1,7.0,2,3.0,5,1,4,1982,Yes
 1256,19,No,,nan,,,High school,,201.0,2,female,79,3,Entry, lAbORatory tECHnICiAn ,2,Single,,16102,1,No,14,,4,0,1.0,3,3.0,1,0,0,2004,No
 1257,51,No,,1169.0,,7.0,Master Degree,,211.0,2,male,34,2,Intermediate, ManufAcTUriNG diRECTOR ,3,Married,,13983,2,No,17,3.0,3,0,10.0,2,3.0,1,0,0,1972,Yes
 1258,58,No,,1145.0,,9.0,University,,214.0,2,female,75,2,Entry, rEsearCH SCIeNtIst ,2,Married,,11873,4,Yes,20,4.0,2,1,9.0,3,2.0,1,0,0,1965,No
 1259,19,Yes,travel_frequently,602.0,,1.0,High school,,,3,female,100,1,Entry, SALES RepRESENTatIvE ,1,,,20989,0,No,21,4.0,1,0,1.0,5,,0,0,0,2004,Yes
-1260,19,Yes,travel_rarely,303.0,,2.0,University,Life Sciences,243.0,2,male,Not Available,2,Entry, LABOrAtorY tecHniCiaN ,4,Single,,9241,1,,22,4.0,3,0,1.0,3,2.0,1,1,0,2004,Yes
+1260,19,Yes,travel_rarely,303.0,,2.0,University,Life Sciences,243.0,2,male,Unknown,2,Entry, LABOrAtorY tecHniCiaN ,4,Single,,9241,1,,22,4.0,3,0,1.0,3,2.0,1,1,0,2004,Yes
 1261,35,Yes,travel_rarely,556.0,,23.0,College,,,2,male,50,2,Intermediate, MAnufACTuRiNG DIReCTOR ,3,,,15497,3,Yes,13,3.0,1,0,8.0,1,3.0,1,0,1,1988,Yes
-1262,38,No,travel_rarely,1261.0,,,Master Degree,,271.0,4,male,Not Available,3,Intermediate, ManUfactuRIng diREcTOR ,3,,6553.0,7259,9,,14,3.0,2,0,14.0,3,3.0,1,0,0,1985,No
+1262,38,No,travel_rarely,1261.0,,,Master Degree,,271.0,4,male,Unknown,3,Intermediate, ManUfactuRIng diREcTOR ,3,,6553.0,7259,9,,14,3.0,2,0,14.0,3,3.0,1,0,0,1985,No
 1263,38,Yes,,1180.0,,29.0,High school,Medical,282.0,2,male,70,3,Intermediate, heAlTHcARe rEpResENtatiVE ,1,Married,6673.0,11354,7,Yes,19,,2,0,17.0,2,3.0,1,0,0,1985,No
 1264,41,No,,896.0, Sales ,6.0,University,Life Sciences,,4,female,75,3,Experienced, mAnageR ,4,Single,13591.0,14674,3,Yes,18,3.0,3,0,,3,3.0,1,0,0,1982,No
 1265,59,No,travel_rarely,142.0,,3.0,University,Life Sciences,309.0,3,male,70,2,Entry, ResEaRCh sciENtIST ,4,Married,2177.0,8456,3,,17,3.0,1,1,7.0,6,3.0,1,0,0,1964,Yes
@@ -1192,7 +1192,7 @@
 1294,40,No,travel_rarely,555.0,,2.0,University,,,2,female,78,2,Intermediate, LAboraTORY TEchNIciAN ,3,Married,3448.0,13436,6,No,22,4.0,2,1,,3,3.0,1,0,0,1983,Yes
 1295,28,No,travel_rarely,1300.0,,17.0,College,,,3,male,79,3,Intermediate, lABORatorY TECHNIciAN ,1,,4558.0,13535,1,,12,3.0,4,1,10.0,2,,10,1,8,1995,No
 1296,38,No,travel_frequently,1490.0,,2.0,College,,556.0,4,male,42,3,Entry, lABoRatory teCHniciAN ,4,Married,1702.0,12106,1,Yes,23,4.0,3,1,,3,3.0,1,0,0,1985,No
-1297,19,Yes,,489.0,,2.0,College,Technical Degree,566.0,1,male,Not Available,2,Entry, humAN ResoUrceS ,4,Single,2564.0,18437,1,No,12,3.0,3,0,1.0,3,4.0,1,0,0,2004,Yes
+1297,19,Yes,,489.0,,2.0,College,Technical Degree,566.0,1,male,Unknown,2,Entry, humAN ResoUrceS ,4,Single,2564.0,18437,1,No,12,3.0,3,0,1.0,3,4.0,1,0,0,2004,Yes
 1298,57,No,travel_rarely,210.0,,29.0,University,,568.0,1,male,56,2,Advanced, MaNagER ,4,Divorced,,22102,3,No,12,3.0,3,1,,3,2.0,1,0,0,1966,Yes
 1299,47,No,travel_rarely,983.0,,2.0,College,Medical,,1,female,65,3,Intermediate, MAnufactURInG DiREctoR ,4,,5070.0,7389,5,,13,,3,3,20.0,2,3.0,5,0,4,1976,Yes
 1300,54,No,travel_rarely,548.0,,8.0,Master Degree,Life Sciences,,3,female,42,3,Intermediate, lAbORATorY TEchniciAN ,3,Single,3780.0,23428,7,,11,3.0,3,0,,3,3.0,1,0,0,1969,No
@@ -1207,7 +1207,7 @@
 1309,37,No,travel_rarely,558.0,,2.0,University,Marketing,656.0,4,male,75,3,Intermediate, salEs eXeCuTIve ,3,Married,9602.0,3010,4,,11,3.0,3,1,,3,2.0,3,1,0,1986,No
 1310,20,No,travel_rarely,959.0, Research & Development ,1.0,University,Life Sciences,657.0,4,female,83,2,Entry, rEsEARcH ScieNTisT ,2,,,11757,1,No,13,,4,0,1.0,0,4.0,1,0,0,2003,Yes
 1311,43,No,,782.0,,,Master Degree,Other,661.0,2,male,50,2,Advanced, REseArcH DireCtOR ,4,Divorced,16627.0,2671,4,,14,3.0,3,1,21.0,3,,1,0,0,1980,No
-1312,38,No,,362.0,,,High school,Life Sciences,662.0,3,female,Not Available,3,Entry, ReseaRcH SCieNTIST ,1,,,14561,3,No,17,3.0,4,0,8.0,3,2.0,0,0,0,1985,Yes
+1312,38,No,,362.0,,,High school,Life Sciences,662.0,3,female,Unknown,3,Entry, ReseaRcH SCieNTIST ,1,,,14561,3,No,17,3.0,4,0,8.0,3,2.0,0,0,0,1985,Yes
 1313,33,No,,1216.0, Sales ,8.0,Master Degree,Marketing,,3,male,39,3,Intermediate, SalEs eXecuTive ,3,Divorced,,20431,0,,12,3.0,4,0,6.0,3,3.0,5,1,2,1990,No
 1314,30,No,,160.0,,3.0,University,,,3,female,71,3,Entry, reSeARCH SCIenTiST ,3,,2083.0,22653,1,No,20,4.0,3,1,1.0,2,,1,0,0,1993,No
 1315,29,No,,nan, Sales ,,College,Medical,690.0,2,female,62,3,Intermediate, SaLeS EXEcUTiVe ,3,,,3487,1,No,14,3.0,1,1,,5,2.0,6,1,2,1994,No
@@ -1215,11 +1215,11 @@
 1317,35,No,non-travel,727.0,,,University,,704.0,20,male,41,2,Entry, LAboRATOry TeCHnician ,3,Married,,16900,1,No,18,3.0,3,2,1.0,3,3.0,1,0,0,1988,No
 1318,37,No,,1225.0,,10.0,College,Life Sciences,715.0,4,male,80,4,Entry, rESeArCh sciENTiSt ,4,Single,,15232,3,No,17,3.0,1,0,,2,,1,0,0,1986,Yes
 1319,38,No,,168.0,,1.0,University,,743.0,3,female,81,3,Experienced, mAnuFacTUrinG dIrECtOR ,3,Single,7861.0,15397,4,Yes,14,,4,0,10.0,4,,1,0,0,1985,Yes
-1320,29,No,,1396.0,,10.0,University,,749.0,3,male,Not Available,3,Entry, sAles RePreseNtativE ,3,Single,2642.0,2755,1,No,11,3.0,3,0,1.0,6,,1,0,0,1994,No
+1320,29,No,,1396.0,,10.0,University,,749.0,3,male,Unknown,3,Entry, sAles RePreseNtativE ,3,Single,2642.0,2755,1,No,11,3.0,3,0,1.0,6,,1,0,0,1994,No
 1321,35,No,,1225.0,,2.0,Master Degree,,,4,female,61,3,Intermediate, HEaLthcAre reprESentATiVE ,1,Divorced,,4761,2,No,11,3.0,1,1,16.0,2,4.0,1,0,0,1988,Yes
 1322,38,No,travel_rarely,268.0,,2.0,PhD,Medical,773.0,4,male,92,3,Entry, ResEarCh ScIenTisT ,3,Married,,20471,6,Yes,13,3.0,2,1,,0,1.0,1,0,1,1985,Yes
 1323,34,No,travel_rarely,167.0,,8.0,PhD,Life Sciences,775.0,2,female,32,3,Intermediate, manUfACtuRIng DiRECtOR ,1,,5121.0,4187,3,No,14,3.0,3,1,,3,,0,0,0,1989,Yes
-1324,23,Yes,,1243.0,,6.0,University,Life Sciences,811.0,3,male,Not Available,4,Entry, LaborAtorY TecHNICIAn ,1,,,3445,1,Yes,21,4.0,3,2,1.0,2,3.0,0,0,0,2000,No
+1324,23,Yes,,1243.0,,6.0,University,Life Sciences,811.0,3,male,Unknown,4,Entry, LaborAtorY TecHNICIAn ,1,,,3445,1,Yes,21,4.0,3,2,1.0,2,3.0,0,0,0,2000,No
 1325,24,No,,1092.0,,9.0,University,Life Sciences,812.0,3,male,60,2,Entry, labORAToRy TeCHNicIAN ,2,Divorced,2694.0,26551,1,No,11,3.0,3,3,,4,3.0,1,0,0,1999,No
 1326,29,Yes,travel_rarely,805.0,,1.0,College,Life Sciences,816.0,2,female,36,2,Entry, LabOrATORy TEchniciAn ,1,Married,,6689,1,,11,3.0,4,1,1.0,1,3.0,1,0,0,1994,Yes
 1327,40,No,travel_frequently,720.0,,16.0,Master Degree,Medical,832.0,1,male,51,2,Intermediate, lABoratORy tEChnIciaN ,3,,5094.0,11983,6,No,14,3.0,4,0,10.0,6,3.0,1,0,0,1983,Yes
@@ -1255,7 +1255,7 @@
 1357,38,No,,nan,,3.0,Master Degree,Life Sciences,,2,male,42,3,Intermediate, sAlEs EXecUTIVE ,4,,,4981,8,Yes,12,3.0,3,0,19.0,1,3.0,1,0,0,1985,No
 1358,36,Yes,,660.0,,15.0,University,,1052.0,1,male,81,3,Intermediate, labORatorY TEchNiCian ,3,Divorced,,7858,7,,14,3.0,2,1,9.0,3,2.0,1,0,0,1987,Yes
 1359,28,No,travel_rarely,1144.0, Sales ,10.0,High school,Medical,1056.0,4,male,74,3,Entry, saLEs RePREsentAtiVE ,2,Married,1052.0,23384,1,No,22,4.0,2,0,,5,3.0,1,0,0,1995,Yes
-1360,43,No,,415.0,,25.0,University,,1076.0,3,male,Not Available,2,Experienced, sALEs ExECutiVe ,4,,,5268,5,No,13,3.0,3,1,18.0,5,3.0,1,0,0,1980,Yes
+1360,43,No,,415.0,,25.0,University,,1076.0,3,male,Unknown,2,Experienced, sALEs ExECutiVe ,4,,,5268,5,No,13,3.0,3,1,18.0,5,3.0,1,0,0,1980,Yes
 1361,21,Yes,travel_rarely,1334.0, Research & Development ,10.0,University,,1079.0,3,female,36,2,Entry, laBOrATORY TechNiCiAn ,1,Single,,17258,1,No,13,,1,0,1.0,6,2.0,1,1,0,2002,Yes
 1362,51,Yes,travel_rarely,1323.0,,4.0,Master Degree,,1081.0,1,male,34,3,Entry, resEaRcH scieNtIST ,3,Married,2461.0,10332,9,,12,,3,3,18.0,2,4.0,10,2,7,1972,No
 1363,37,No,,309.0, Sales ,10.0,Master Degree,,1105.0,4,female,88,2,Intermediate, sALes exECutIVe ,4,Divorced,,24223,2,Yes,14,,3,3,8.0,5,3.0,1,0,0,1986,No
@@ -1284,7 +1284,7 @@
 1386,25,Yes,travel_frequently,599.0,,,High school,,1273.0,3,male,73,1,Entry, saLEs rEpRESEnTAtiVe ,4,Single,1118.0,8040,1,Yes,14,,4,0,1.0,4,3.0,1,1,0,1998,Yes
 1387,42,No,,603.0,,,Master Degree,Medical,,2,female,78,4,Intermediate, REsearCH sCIeNTIst ,2,Married,2372.0,5628,6,Yes,16,3.0,4,0,18.0,2,3.0,1,0,0,1981,No
 1388,51,No,travel_frequently,968.0,,6.0,College,Medical,,2,female,40,2,Entry, lABoraTORY tEcHnicIAN ,3,Single,2838.0,4257,0,,14,3.0,2,0,8.0,6,2.0,7,7,7,1972,No
-1389,45,No,travel_frequently,364.0,,25.0,University,Medical,1306.0,2,female,Not Available,3,Expert, manAGEr ,2,,18061.0,13035,3,,22,4.0,3,0,22.0,4,3.0,0,0,0,1978,No
+1389,45,No,travel_frequently,364.0,,25.0,University,Medical,1306.0,2,female,Unknown,3,Expert, manAGEr ,2,,18061.0,13035,3,,22,4.0,3,0,22.0,4,3.0,0,0,0,1978,No
 1390,27,No,,1291.0,,11.0,University,Medical,1364.0,3,female,98,4,Entry, salEs repResEntatiVe ,4,Married,,6527,8,,14,,2,1,5.0,4,3.0,1,0,0,1996,Yes
 1391,18,No,non-travel,1124.0,,1.0,University,,1368.0,4,female,97,3,Entry, LaBoRAtORy TEcHnICiAN ,4,Single,1611.0,19305,1,,15,3.0,3,0,0.0,5,4.0,0,0,0,2005,No
 1392,31,Yes,travel_frequently,703.0,,2.0,University,,1379.0,3,female,90,2,Entry, SaLeS RepRESenTatIve ,4,Single,,11882,7,No,14,3.0,3,0,3.0,3,4.0,1,0,0,1992,Yes
@@ -1293,11 +1293,11 @@
 1395,27,No,travel_rarely,1377.0,,11.0,High school,Life Sciences,1434.0,2,male,91,3,Entry, laBOrAtOry TEChnICiAn ,1,Married,,7679,0,,14,3.0,2,0,6.0,3,4.0,5,1,4,1996,No
 1396,39,Yes,,592.0,,2.0,University,,1458.0,1,female,54,2,Entry, laBORatory tecHnIcian ,1,Single,,17181,2,Yes,23,4.0,2,0,11.0,2,4.0,1,0,0,1984,Yes
 1397,44,No,travel_frequently,383.0,,1.0,PhD,Marketing,1481.0,1,female,79,3,Intermediate, sAlES ExecUTiVE ,3,Married,4768.0,9282,7,,12,,3,1,11.0,4,2.0,1,0,0,1979,No
-1398,30,No,,990.0, Research & Development ,,University,,1482.0,25,male,Not Available,3,Entry, rESeaRch SCIeNTIST ,3,,1274.0,7152,1,,13,3.0,2,2,1.0,2,2.0,1,0,0,1993,No
+1398,30,No,,990.0, Research & Development ,,University,,1482.0,25,male,Unknown,3,Entry, rESeaRch SCIeNTIST ,3,,1274.0,7152,1,,13,3.0,2,2,1.0,2,2.0,1,0,0,1993,No
 1399,35,No,travel_rarely,660.0,,,High school,Life Sciences,,4,male,76,3,Entry, sALES rePReSEntATIvE ,3,,2404.0,16192,1,No,13,,1,1,1.0,3,3.0,1,0,0,1988,Yes
 1400,24,Yes,travel_frequently,381.0,,9.0,University,,1494.0,2,male,89,3,Entry, LABorAToRy TecHnicIan ,1,,,16998,2,,11,3.0,3,0,,2,2.0,0,0,0,1999,No
 1401,24,No,,830.0,,13.0,College,,,4,female,78,3,Entry, SaLes rEprESENtatIVe ,2,Married,2033.0,7103,1,,13,3.0,3,1,1.0,2,,1,0,0,1999,Yes
-1402,28,Yes,,289.0,,2.0,College,Medical,1504.0,3,male,Not Available,2,Entry, LaBORAToRy teChnICiAn ,1,Single,2561.0,5355,7,No,11,,3,0,8.0,2,2.0,0,0,0,1995,Yes
+1402,28,Yes,,289.0,,2.0,College,Medical,1504.0,3,male,Unknown,2,Entry, LaBORAToRy teChnICiAn ,1,Single,2561.0,5355,7,No,11,,3,0,8.0,2,2.0,0,0,0,1995,Yes
 1403,28,No,travel_rarely,1423.0,,1.0,University,Life Sciences,,1,male,72,2,Entry, rESeARch SCIentisT ,3,,1563.0,12530,1,,14,3.0,4,1,1.0,2,1.0,1,0,0,1995,No
 1404,33,No,,516.0,,8.0,PhD,,1515.0,4,male,69,3,Intermediate, HeALThCARE rEPRESEnTATIvE ,3,,6388.0,22049,2,,17,3.0,1,0,14.0,6,3.0,0,0,0,1990,Yes
 1405,39,No,travel_rarely,1089.0,,6.0,University,,1525.0,2,female,32,3,Experienced, MAnuFActUring DIrEcToR ,2,Single,8376.0,9150,4,,18,,4,0,9.0,3,3.0,2,2,2,1984,No
@@ -1323,7 +1323,7 @@
 1425,40,No,travel_rarely,369.0,,8.0,College,Life Sciences,1724.0,2,female,92,3,Intermediate, maNuFaCturInG dirECTOR ,1,,,5041,2,Yes,16,3.0,2,1,18.0,3,3.0,1,0,0,1983,Yes
 1426,30,No,travel_rarely,793.0,,,High school,,,2,male,33,3,Entry, rEseArCh SCieNTISt ,4,Married,2862.0,3811,1,No,12,3.0,2,1,10.0,2,2.0,10,0,8,1993,Yes
 1427,47,No,non-travel,543.0,,2.0,Master Degree,Marketing,1731.0,3,male,87,3,Intermediate, sAles eXecutIVE ,2,,,3536,7,No,11,3.0,4,1,4.0,3,1.0,1,0,0,1976,Yes
-1428,32,Yes,travel_rarely,964.0, Sales ,1.0,College,,,1,male,Not Available,1,Intermediate, SalES eXecUTiVE ,2,Single,6735.0,12147,6,,15,3.0,2,0,10.0,2,3.0,0,0,0,1991,No
+1428,32,Yes,travel_rarely,964.0, Sales ,1.0,College,,,1,male,Unknown,1,Intermediate, SalES eXecUTiVE ,2,Single,6735.0,12147,6,,15,3.0,2,0,10.0,2,3.0,0,0,0,1991,No
 1429,45,No,travel_rarely,176.0,,,University,Life Sciences,1744.0,41,female,56,1,Experienced, huMAn ReSOurCES ,3,Married,9756.0,6595,4,,21,4.0,3,2,9.0,2,4.0,5,0,3,1978,Yes
 1430,34,No,,181.0,,2.0,Master Degree,,1755.0,4,male,97,4,Entry, ReSeaRch sCienTiSt ,4,Married,,5586,0,Yes,14,3.0,1,3,6.0,3,3.0,5,1,2,1989,No
 1431,33,Yes,,211.0,,16.0,University,,1758.0,1,female,74,3,Experienced, SaLEs ExEcutive ,1,,,10092,2,Yes,20,4.0,3,0,,2,2.0,0,0,0,1990,Yes
@@ -1342,7 +1342,7 @@
 1444,36,No,travel_rarely,430.0,,2.0,Master Degree,,1847.0,4,female,73,3,Intermediate, ReseaRch SCIenTIsT ,2,,,19573,4,Yes,22,4.0,4,1,,2,3.0,1,0,0,1987,Yes
 1445,32,No,travel_frequently,1318.0,,10.0,Master Degree,Marketing,1853.0,4,male,79,3,Intermediate, SALES EXECuTIVE ,4,,4648.0,26075,8,,13,3.0,3,0,,2,4.0,0,0,0,1991,Yes
 1446,29,No,,726.0,,29.0,High school,Life Sciences,,4,male,93,1,Intermediate, HeaLthCaRe ReprESeNtAtIVE ,3,Divorced,,21143,8,No,17,,4,2,11.0,3,,7,1,6,1994,No
-1447,42,No,travel_rarely,1142.0,,8.0,University,,1860.0,4,male,Not Available,3,Entry, LabORatoRY TEchNIcIan ,3,,,13624,4,No,13,,4,0,,3,3.0,0,0,0,1981,Yes
+1447,42,No,travel_rarely,1142.0,,8.0,University,,1860.0,4,male,Unknown,3,Entry, LabORatoRY TEchNIcIan ,3,,,13624,4,No,13,,4,0,,3,3.0,0,0,0,1981,Yes
 1448,29,No,travel_rarely,352.0,,6.0,High school,,1865.0,4,male,87,2,Entry, HUmAN rEsOURCEs ,2,Married,2804.0,15434,1,No,11,3.0,4,0,,3,3.0,1,0,0,1994,Yes
 1449,29,Yes,,nan,,24.0,College,,,4,male,73,2,Entry, reSEarCh sciENTiSt ,4,,2439.0,14753,1,Yes,24,,2,0,1.0,3,2.0,1,1,0,1994,No
 1450,28,No,travel_rarely,1172.0, Sales ,3.0,University,Medical,1875.0,2,female,78,3,Entry, SaLes REPREseNtATive ,2,,2856.0,3692,1,No,19,3.0,4,1,1.0,3,3.0,1,0,0,1995,Yes
@@ -1375,7 +1375,7 @@
 1477,41,No,,334.0,,2.0,Master Degree,,,4,male,88,3,Advanced, MAnaGeR ,2,,16015.0,15896,1,,19,3.0,2,0,,2,3.0,22,0,4,1982,Yes
 1478,39,No,travel_rarely,1132.0, Research & Development ,1.0,University,,,3,male,48,4,Experienced, hEalthCarE REPResEnTaTive ,4,,9613.0,10942,0,No,17,,1,3,19.0,5,2.0,18,3,7,1984,Yes
 1479,38,No,,nan,,15.0,College,Life Sciences,,3,male,92,2,Experienced, reSeaRch DireCtOR ,4,,11510.0,15682,0,,14,3.0,2,1,,3,3.0,11,2,9,1985,Yes
-1480,43,No,,982.0,,12.0,University,,,1,male,Not Available,2,Advanced, ReseArCH dirECTOR ,2,,,4345,1,No,11,3.0,3,1,,3,,25,3,9,1980,Yes
+1480,43,No,,982.0,,12.0,University,,,1,male,Unknown,2,Advanced, ReseArCH dirECTOR ,2,,,4345,1,No,11,3.0,3,1,,3,,25,3,9,1980,Yes
 1481,31,No,,480.0,,7.0,College,,524.0,2,female,31,3,Intermediate, maNUFActUrInG dIreCTOr ,1,Married,4306.0,4156,1,No,12,3.0,2,1,13.0,5,1.0,13,3,12,1992,Yes
 1482,50,No,travel_rarely,1099.0, Research & Development ,29.0,Master Degree,Life Sciences,569.0,2,male,88,2,Advanced, mANagER ,3,Married,17046.0,9314,0,No,15,3.0,2,1,28.0,2,3.0,27,15,7,1973,Yes
 1483,33,No,non-travel,1038.0, Sales ,8.0,High school,Life Sciences,1044.0,2,female,88,2,Entry, sales repResENTaTiVE ,4,,,21437,0,,19,3.0,4,0,,2,2.0,2,2,2,1990,No
@@ -1461,7 +1461,7 @@
 1563,41,No,travel_rarely,645.0, Sales ,1.0,University,Marketing,534.0,2,male,49,4,Experienced, salEs eXEcuTIvE ,1,Married,8392.0,19566,1,,16,3.0,3,1,10.0,2,3.0,10,0,7,1982,Yes
 1564,46,No,,1485.0,,18.0,University,Medical,,3,female,87,3,Intermediate, manUFactuRING DIreCTor ,3,,,26314,2,No,14,3.0,3,1,19.0,5,2.0,10,0,8,1977,No
 1565,30,No,non-travel,1116.0,,2.0,University,,,3,female,49,3,Entry, laBorATORY tEchNICiAn ,4,Single,,7181,0,,14,3.0,3,0,12.0,2,2.0,11,6,7,1993,Yes
-1566,35,No,travel_rarely,1276.0,,16.0,University,Life Sciences,586.0,4,male,Not Available,3,Experienced, HEalTHCArE rEpresEnTaTIvE ,3,,,14295,4,Yes,12,3.0,3,0,10.0,2,3.0,8,0,0,1988,Yes
+1566,35,No,travel_rarely,1276.0,,16.0,University,Life Sciences,586.0,4,male,Unknown,3,Experienced, HEalTHCArE rEpresEnTaTIvE ,3,,,14295,4,Yes,12,3.0,3,0,10.0,2,3.0,8,0,0,1988,Yes
 1567,48,No,travel_rarely,163.0,,2.0,PhD,,595.0,2,female,37,3,Intermediate, sALES EXEcuTIVe ,4,Married,4051.0,19658,2,No,14,3.0,1,1,14.0,2,3.0,9,6,7,1975,Yes
 1568,45,No,travel_rarely,561.0,,2.0,University,Other,,4,male,61,3,Intermediate, sAles executiVe ,2,,4805.0,16177,0,No,19,3.0,2,1,,3,4.0,8,3,7,1978,No
 1569,26,Yes,travel_frequently,426.0,,17.0,Master Degree,Life Sciences,608.0,2,female,58,3,Entry, HUMaN resoURCES ,3,,2741.0,22808,0,Yes,11,3.0,2,1,8.0,2,,7,1,0,1997,Yes
@@ -1473,7 +1473,7 @@
 1575,37,No,travel_rarely,482.0,,3.0,University,Other,,3,male,36,3,Experienced, mAnuFACTURIng DIrECToR ,3,Married,9434.0,9606,1,No,15,,3,1,,2,3.0,10,7,8,1986,Yes
 1576,54,No,,397.0,,,Master Degree,,,3,male,88,3,Experienced, human RESOurceS ,2,,,6729,2,,15,,3,1,16.0,1,4.0,9,7,1,1969,No
 1577,38,No,travel_rarely,243.0, Sales ,7.0,Master Degree,Marketing,,4,female,46,2,Intermediate, SaLeS exEcUTiVE ,4,,,7791,0,No,20,,1,0,,2,3.0,7,0,5,1985,Yes
-1578,29,No,,806.0, Research & Development ,1.0,Master Degree,Life Sciences,710.0,2,male,Not Available,1,Entry, ReSEArch scieNTiST ,4,Divorced,,18959,1,,18,3.0,4,1,10.0,5,3.0,10,2,8,1994,Yes
+1578,29,No,,806.0, Research & Development ,1.0,Master Degree,Life Sciences,710.0,2,male,Unknown,1,Entry, ReSEArch scieNTiST ,4,Divorced,,18959,1,,18,3.0,4,1,10.0,5,3.0,10,2,8,1994,Yes
 1579,34,No,,1442.0,,9.0,University,Medical,717.0,4,female,46,2,Experienced, HEaLTHCArE rEpreSeNtatiVE ,2,,,17654,1,,14,3.0,2,0,9.0,3,4.0,8,7,7,1989,Yes
 1580,39,No,,408.0,,2.0,Master Degree,Technical Degree,721.0,4,female,80,2,Intermediate, HeaLTHcARE reprESenTAtIve ,3,Single,,20978,1,No,11,3.0,1,0,20.0,4,3.0,20,11,10,1984,No
 1581,32,No,,929.0,,10.0,University,Marketing,722.0,4,male,55,3,Intermediate, sAlES EXECUtivE ,4,,5396.0,21703,1,,12,3.0,4,0,10.0,2,2.0,10,0,8,1991,Yes
@@ -1499,8 +1499,8 @@
 1601,28,No,,760.0, Sales ,,Master Degree,,,43,female,81,3,Intermediate, SaLEs ExECUtiVE ,2,,,3698,1,,20,4.0,1,0,8.0,2,3.0,8,7,5,1995,No
 1602,26,Yes,,nan,,5.0,College,Medical,,3,female,88,2,Entry, reSearCH scientiST ,3,Married,2366.0,20898,1,,14,3.0,1,1,8.0,2,3.0,8,1,7,1997,Yes
 1603,44,No,,661.0,,9.0,College,,913.0,2,male,61,3,Entry, RESearch SCieNtISt ,1,,,7508,1,Yes,13,3.0,4,0,8.0,0,3.0,8,7,1,1979,No
-1604,41,Yes,,1085.0, Research & Development ,2.0,Master Degree,Life Sciences,927.0,2,female,Not Available,1,Entry, LAbORAToRy tEcHNICian ,4,Divorced,,17725,4,Yes,13,3.0,3,1,,1,2.0,7,1,0,1982,Yes
-1605,31,No,travel_rarely,154.0,,7.0,Master Degree,,941.0,2,male,Not Available,2,Entry, SAlES rEpreSENtaTiVe ,3,,2329.0,11737,3,,15,,2,0,,2,4.0,7,5,2,1992,Yes
+1604,41,Yes,,1085.0, Research & Development ,2.0,Master Degree,Life Sciences,927.0,2,female,Unknown,1,Entry, LAbORAToRy tEcHNICian ,4,Divorced,,17725,4,Yes,13,3.0,3,1,,1,2.0,7,1,0,1982,Yes
+1605,31,No,travel_rarely,154.0,,7.0,Master Degree,,941.0,2,male,Unknown,2,Entry, SAlES rEpreSENtaTiVe ,3,,2329.0,11737,3,,15,,2,0,,2,4.0,7,5,2,1992,Yes
 1606,26,No,travel_frequently,1283.0, Sales ,1.0,University,Medical,956.0,3,male,52,2,Intermediate, sAleS EXECUtIvE ,1,,4294.0,11148,1,,12,3.0,2,0,,2,3.0,7,0,7,1997,Yes
 1607,31,No,,616.0,,12.0,University,Medical,,4,female,41,3,Intermediate, HEaltHCarE REPreSENtAtIve ,4,,,17369,0,,11,3.0,3,2,10.0,2,1.0,9,8,5,1992,Yes
 1608,32,No,,498.0,,3.0,Master Degree,Medical,966.0,3,female,93,3,Intermediate, MANUfaCtuRiNG DiReCtor ,1,Married,6725.0,13554,1,,12,3.0,3,1,8.0,2,4.0,8,6,3,1991,Yes
