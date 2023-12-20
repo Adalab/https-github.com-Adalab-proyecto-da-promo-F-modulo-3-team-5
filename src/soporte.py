@@ -144,7 +144,7 @@ def eliminar_duplicados (dataframe,columna):
 
     indices_a_sacar = df_resultado.iloc[::2, 0]
 
-    dataframe = dataframe.drop(indices_a_sacar)
+    dataframe = dataframe.drop(indices_a_sacar, inplace=True)
 
     return dataframe
 
