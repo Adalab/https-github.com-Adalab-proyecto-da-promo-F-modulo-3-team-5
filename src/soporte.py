@@ -12,7 +12,10 @@ from sklearn.impute import KNNImputer
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-import os
+import scipy.stats as stats
+from scipy.stats import chisquare, kstest,chi2_contingency,ttest_ind
+
+#import os
 #import sys
 
 
@@ -66,7 +69,7 @@ def limpieza_columnas (dataframe,columnas,columnas_drop):
         except:
             pass
     
-    return dataframe
+    return dataframe 
     
 # %%
 def limpieza_datos (dataframe,columnas_limpiar, columnas_minusculas):
@@ -256,5 +259,117 @@ def gestion_nulos_num (dataframe):
     print(f"Después del 'fillna' tenemos {dataframe[lista_columnas].isnull().sum()} nulos")
 
     display(dataframe.isnull().sum())
+
+def categorizar_grupos(numero):
+    if numero >= 3:
+        return "grupo A"
+    else:
+        return "grupo B"
+    
    
 
+def creo_df_AB(df, columnas):
+    df_grupoA = df[df[columnas]== "grupo A"]
+    
+    df_grupoB = df[df[columnas]== "grupo B"]
+     
+    # Crear un DataFrame
+    data_p_test = {
+    'Grupo': ["Empleados Satisfechos", "Empleados Insatisfechos"],
+    'Rotacion_si': [df_grupoA[df_grupoA["attrition"]== "yes"].shape[0]/df_grupoA.shape[0],df_grupoB[df_grupoB["attrition"]== "yes"].shape[0]/df_grupoB.shape[0]],
+    'Rotacion_no': [df_grupoA[df_grupoA["attrition"]== "no"].shape[0]/df_grupoA.shape[0],df_grupoB[df_grupoB["attrition"]== "no"].shape[0]/df_grupoB.shape[0]]}
+
+    df_p_test = pd.DataFrame(data_p_test)
+    return df_p_test
+
+def normalidad(dataframe, columna,col_2):
+    statistic, p_value = stats.kstest(dataframe[columna],'norm')
+    if p_value > 0.05:
+        print(f"Para la columna {columna} los datos de {col_2} siguen una distribución normal.")
+    else:
+        print(f"Para la columna {columna} los datos de {col_2} no siguen una distribución normal.")
+
+def homogeneidad(dataframe, columna, columna_metrica,col_2):
+    valores_evaluar = []
+    
+    for valor in dataframe[columna].unique():
+        valores_evaluar.append(dataframe[dataframe[columna]== valor][columna_metrica])
+
+    statistic, p_value = stats.levene(*valores_evaluar)
+    if p_value > 0.05:
+        print(f"Para la métrica {columna_metrica} las varianzas de {col_2} son homogéneas entre grupos.")
+    else:
+        print(f"Para la métrica {columna_metrica}, las varianzas de {col_2}  no son homogéneas entre grupos.")
+
+def ab_testing(df, columna):  
+    # hacemos un análisis visual previo
+    fig, axes = plt.subplots(nrows = 1, ncols = 2, figsize = (20, 5))
+
+    sns.barplot(x="Grupo", y="Rotacion_si", data=df,  palette = "flare",ax = axes[0])
+    sns.barplot(x="Grupo", y="Rotacion_no", data=df,  palette = "flare", ax = axes[1])
+
+    axes[0].set_title(columna)
+    axes[1].set_title(columna)
+        
+    # Crear una tabla de contingencia
+    contingency_table = pd.crosstab(df['Grupo'], df['Rotacion_si'])
+
+# Realizar la prueba de proporciones
+    chi2, p_value, _, _ = chi2_contingency(contingency_table)
+
+# Imprimir el resultado de la prueba
+    alpha = 0.05
+    if p_value < alpha:
+        print(f"Hay una diferencia significativa entre {columna} y la rotación")
+        print("""
+            Los resultados sugieren que existe evidencia estadística para afirmar que los datos guardan relación. 
+            """)
+        print("\n ---------- \n")
+    else:
+        print(f"No hay una diferencia significativa entre {columna} y la rotación.")
+        print("""Los resultados sugieren que no existe evidencia estadística para afirmar que los datos guardan relación""")
+        print("\n ---------- \n")  
+
+def test_man_whitney(dataframe,metrica, grupo_A, grupo_B, columna_grupos):
+    grupoA = dataframe[dataframe[columna_grupos] == grupo_A]
+    grupoB = dataframe[dataframe[columna_grupos] == grupo_B]
+    
+    metrica_grupoA = grupoA[metrica]
+    metrica_grupoB = grupoB[metrica]
+    
+    u_statistic, p_value = stats.mannwhitneyu(metrica_grupoA, metrica_grupoB)
+    
+    if p_value < 0.05:
+        print(f"Las medianas entre {metrica} y el tiempo de permanencia en la empresa son diferentes. Lo que significa que hay diferencias significativas en los datos")
+    else:
+        print(f"Las medianas entre {metrica} y el tiempo de permanencia en la empresa son iguales. Lo que significa que no hay diferencias significativas en los datos")
+
+def independencia (df,columna):
+    tabla_contingencia = pd.crosstab(df[columna], df['attrition'])
+    chi2, p_value, _, _ = chi2_contingency(tabla_contingencia)
+    print(p_value)
+
+    # Imprimir el resultado de la prueba
+    alpha = 0.05
+    if p_value < alpha:
+        print(f"Hay una diferencia significativa entre {columna} y la rotación")
+        print("""
+            Los resultados sugieren que existe evidencia estadística para afirmar que los datos guardan relación. 
+            """)
+        print("\n ---------- \n")
+    else:
+        print(f"No hay una diferencia significativa entre {columna} y la rotación.")
+        print("""Los resultados sugieren que no existe evidencia estadística para afirmar que los datos guardan relación""")
+        print("\n ---------- \n") 
+
+def categorizar_grupos_level(joblevel):
+    if joblevel == 'intermediate' or joblevel == 'entry':
+        return "level B"
+    else:
+        return "level A" 
+
+def categorizar_grupos_role(jobrole):
+    if jobrole == ' laboratory technician ' or jobrole == ' research scientist ' or jobrole==' human resources ' or jobrole==' sales representative ' or jobrole==' healthcare representative ':
+        return "role B"
+    else:
+        return "role A"         
