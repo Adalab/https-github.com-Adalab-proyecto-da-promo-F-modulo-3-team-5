@@ -121,7 +121,7 @@ def convertir_a_numero(valor):
         return None
 
 # %%
-os.getcwd()  
+#os.getcwd()  
 #%%
 #identificamos los números de empleado duplicados
 # usamos unique para que muestre los valores únicos
@@ -150,3 +150,111 @@ def transformacion_datos (dataframe, columna, diccionario):
     dataframe[columna]= dataframe[columna].replace(diccionario)
 
     return dataframe
+#%%
+def nulos_cat (dataframe,columnas_desconocidas): 
+
+    df_nulos = pd.DataFrame((dataframe.isnull().sum() / dataframe.shape[0]) * 100, columns = ["%_nulos"])
+    df_nulos= df_nulos[df_nulos["%_nulos"] > 0]
+     #clomnas categoricas
+    nulos_esta_cat = dataframe[dataframe.columns[dataframe.isnull().any()]].select_dtypes(include = "O").columns
+    print("Las columnas categóricas que tienen nulos son : \n ")
+    print(nulos_esta_cat)
+    
+    for col in nulos_esta_cat:
+        print(f"La distribución de las categorías para la columna {col.upper()}")
+        display(dataframe[col].value_counts() / dataframe.shape[0])
+        print("..........")
+
+    # iteramos por la lista de columnas a las que le vamos a cambiar los nulos por "Uknown"
+   
+    for columna in columnas_desconocidas:
+        
+        # reemplazamos los nulos por el valor Unknown para cada una de las columnas de la lista
+        dataframe[columna] = dataframe[columna].fillna("Unknown")
+        
+    # comprobamos si quedan nulos en las columnas categóricas. 
+    print("Después del reemplazo usando 'fillna' quedan los siguientes nulos")
+    dataframe[columnas_desconocidas].isnull().sum()
+
+    display(dataframe.describe(include='O').T)
+
+    
+            
+    return df_nulos
+#%%
+def visualizacion_num_nulos (dataframe):
+    
+    nulos_esta_num = dataframe[dataframe.columns[dataframe.isnull().any()]].select_dtypes(include = np.number).columns
+    print("Las columnas numéricas que tienen nulos son : \n ")
+    print(nulos_esta_num)
+    
+    dataframe[nulos_esta_num].isnull().sum() / dataframe.shape[0]
+
+    fig, axes = plt.subplots(nrows = 3, ncols = 3, figsize = (20,10)) 
+
+    axes = axes.flat
+
+    for indice, col in enumerate(nulos_esta_num):
+        sns.boxplot(x = col, data = dataframe, ax = axes[indice])
+        
+    plt.tight_layout()
+    fig.delaxes(axes[-1]);
+
+    return display(dataframe.describe(exclude='O').T)
+
+#%%
+def gestion_nulos_num (dataframe):
+    imputer_iterative = IterativeImputer(max_iter = 20, random_state = 42)
+
+    # ajustamos y tranformamos los datos
+    imputer_iterative_imputado = imputer_iterative.fit_transform(dataframe[["dailyrate","totalworkingyears"]])
+
+    # comprobamos que es lo que nos devuelve, que en este caso es un array también
+    imputer_iterative_imputado
+
+    dataframe[["dailyrate_iterative","totalworkingyears_iterative"]] = imputer_iterative_imputado
+
+    # instanciamos la clase del KNNImputer
+    imputer_knn = KNNImputer(n_neighbors = 5)
+
+    # ajustamos y transformamos los datos
+    imputer_knn_imputado = imputer_knn.fit_transform(dataframe[["dailyrate","totalworkingyears"]])
+
+    # comprobamos que es lo que nos devuelve, que sigue siendo un array
+    imputer_knn_imputado
+
+    # por último nos queda añadir ese array al DataFrame como hemos hecho hasta ahora
+    dataframe[["dailyrate_knn","totalworkingyears_knn"]] = imputer_knn_imputado
+
+    # comprobamos los nulos
+    print(f'Después del KNN tenemos: \n{dataframe[["dailyrate_knn","totalworkingyears_knn"]].isnull().sum()} nulos')
+
+    dataframe.describe()[["dailyrate","dailyrate_iterative", "dailyrate_knn", "totalworkingyears", "totalworkingyears_iterative", "totalworkingyears_knn"]]
+
+    #eliminamos las columnas que ya no nos interesan para guardar el DataFrame 
+    dataframe.drop(["dailyrate", "totalworkingyears", "dailyrate_knn", "totalworkingyears_iterative" ], axis = 1, inplace = True)
+
+    # ahora vamos a cambiar el nombre de las columnas que quedaron para que tengan el mismo nombre de origen
+    nuevo_nombre = {"dailyrate_iterative": "dailyrate", "totalworkingyears_knn": "totalworkingyears"}
+    dataframe.rename(columns = nuevo_nombre, inplace = True)
+
+    median_worklifebalance = dataframe["worklifebalance"].median()
+    print(f"La media de la columna 'worklifebalance' es: {round(median_worklifebalance, 2)}")
+
+    # aplicamos el método 'fillna()' a la columna
+    dataframe["worklifebalance"] = dataframe["worklifebalance"].fillna(median_worklifebalance)
+
+    # comprobamos los nulos para la columna
+    print(f"Después del 'fillna' tenemos {dataframe['worklifebalance'].isnull().sum()} nulos")
+    
+    # aplicamos el método 'fillna()' a la columna
+    lista_columnas=["performancerating","monthlyincome", "employeenumber","distancefromhome"]
+
+    dataframe[lista_columnas] = dataframe[lista_columnas].fillna("unknown")
+
+    # comprobamos los nulos para la columna
+    print(f"Después del 'fillna' tenemos {dataframe[lista_columnas].isnull().sum()} nulos")
+
+    display(dataframe.isnull().sum())
+   
+

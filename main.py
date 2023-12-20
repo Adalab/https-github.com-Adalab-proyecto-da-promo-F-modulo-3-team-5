@@ -1,12 +1,13 @@
 #%%
 import pandas as pd
 import numpy as np
-
-import sys
-sys.path.append("../")
+import os
+#import sys
+#sys.path.append("../")
 from src import soporte as sp
+#os.getcwd() 
 # %%
-df= sp.abrir_archivo('../HR RAW DATA.csv')
+df= sp.abrir_archivo('HR RAW DATA.csv')
 # %%
 eda = sp.exploracion_dataframe(df)
 # %%
@@ -47,4 +48,15 @@ sp.transformacion_datos(df, 'joblevel', categorias_joblevel)
 
 #%%
 df['hourlyrate'] = df['hourlyrate'].replace( 'not available', 'unknown')
+#%%
+df["dailyrate"] = df["dailyrate"].apply(lambda x: np.nan if x == 'nan' else float(x))
+# %%
+columnas_desconocidas = ['businesstravel', 'department', 'educationfield', 'maritalstatus', 'overtime']
+sp.nulos_cat(df, columnas_desconocidas)
+
+#%%
+sp.visualizacion_num_nulos(df)
+
+#%%
+sp.gestion_nulos_num(df)
 # %%
