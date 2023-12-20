@@ -115,10 +115,11 @@ for i in columnas_num:
        sp.normalidad(df,i,i)
        
 # %%
+colores = sns.color_palette('mako_r', n_colors=3)
 fig, axes = plt.subplots(nrows =1, ncols = 3, figsize =(20,5), gridspec_kw={'wspace': 0.5})
-sns.histplot(x='percentsalaryhike', data=df,ax=axes[0])
-sns.histplot(x='trainingtimeslastyear', data=df,ax=axes[1])
-sns.histplot(x='yearssincelastpromotion', data=df,ax=axes[2])
+sns.histplot(x='percentsalaryhike', data=df,ax=axes[0], color=colores[0])
+sns.histplot(x='trainingtimeslastyear', data=df,ax=axes[1], color=colores[0], binwidth = 1)
+sns.histplot(x='yearssincelastpromotion', data=df,ax=axes[2], color=colores[0], binwidth = 1)
 
 # %%
 for i in columnas_num:
@@ -229,4 +230,5 @@ bbdd.insertar_datos(query.query_insertar_datos_salario,'AlumnaAdalab','base_dato
 bbdd.insertar_datos(query.query_insertar_empleado_encuesta,'AlumnaAdalab','base_datos_empleados_ETL',datos_tabla_encuesta_empleado)
 bbdd.insertar_datos(query.query_insertar_datos_encuesta_empleado,'AlumnaAdalab','base_datos_empleados_ETL',datos_tabla_datos_encuestas_empleado)
 bbdd.insertar_datos(query.query_insertar_datos_encuesta_manager,'AlumnaAdalab','base_datos_empleados_ETL',datos_tabla_datos_encuestas_manager)
-#%%
+
+# %%

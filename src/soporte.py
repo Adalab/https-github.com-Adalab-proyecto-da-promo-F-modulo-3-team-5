@@ -186,7 +186,7 @@ def nulos_cat (dataframe,columnas_desconocidas):
     return df_nulos
 #%%
 def visualizacion_num_nulos (dataframe):
-    
+    colores = sns.color_palette('mako_r', n_colors=3)
     nulos_esta_num = dataframe[dataframe.columns[dataframe.isnull().any()]].select_dtypes(include = np.number).columns
     print("Las columnas numéricas que tienen nulos son : \n ")
     print(nulos_esta_num)
@@ -198,7 +198,7 @@ def visualizacion_num_nulos (dataframe):
     axes = axes.flat
 
     for indice, col in enumerate(nulos_esta_num):
-        sns.boxplot(x = col, data = dataframe, ax = axes[indice])
+        sns.boxplot(x = col, data = dataframe, ax = axes[indice],color=colores[0])
         
     plt.tight_layout()
     fig.delaxes(axes[-1]);
@@ -305,8 +305,8 @@ def ab_testing(df, columna):
     # hacemos un análisis visual previo
     fig, axes = plt.subplots(nrows = 1, ncols = 2, figsize = (20, 5))
 
-    sns.barplot(x="Grupo", y="Rotacion_si", data=df,  palette = "flare",ax = axes[0])
-    sns.barplot(x="Grupo", y="Rotacion_no", data=df,  palette = "flare", ax = axes[1])
+    sns.barplot(x="Grupo", y="Rotacion_si", data=df,  palette = "mako_r",ax = axes[0])
+    sns.barplot(x="Grupo", y="Rotacion_no", data=df,  palette = "mako_r", ax = axes[1])
 
     axes[0].set_title(columna)
     axes[1].set_title(columna)
